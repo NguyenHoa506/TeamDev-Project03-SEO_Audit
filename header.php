@@ -23,6 +23,7 @@
                                 <li style="padding-top:4px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/magic/seo">SEO</a></li>
                                 <li style="padding-top:4px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads">QUẢNG CÁO GOOGLE</a></li>
                                 <li style="padding-top:4px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
+                                <li style="padding-top:4px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/audit">AUDIT WEB</a></li>
                             </ul>
                         </li>
 
