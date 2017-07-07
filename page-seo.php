@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C&#244;ng ty dịch vụ Internet Marketing uy t&#237;n - Magic</title>
+    <meta name="description" content="Bạn đang cần từ khóa top 1 Google? Hãy sử dụng dịch vụ seo với độ tin cậy cao nhất của Magic từ đội ngũ chuyên gia seo tốt nhất hiện nay." />
+    <meta property="og:description" content="Bạn đang cần từ khóa top 1 Google? Hãy sử dụng dịch vụ seo với độ tin cậy cao nhất của Magic từ đội ngũ chuyên gia seo tốt nhất hiện nay." />
+    <meta name="keywords" content="thiết kế website chuyên nghiệp, thiết kế website, công ty thiết kế website, công ty SEO chuyên nghiệp, dịch vụ SEO chuyên nghiệp, SEO uy tín, Website bán hàng">
+    <meta property="og:title" content="C&#244;ng ty dịch vụ Internet Marketing uy t&#237;n - Magic" />
+    
+    <meta property="og:image" content="http://magica.top/Imgs/sharelogo.jpg" />
+    <link rel="alternate" href="//magica.top/" hreflang="vi" />
+    <link rel="canonical" href="//magica.top/" />
+    <meta property="og:url" content="http://magica.top/" />
+    <meta http-equiv="content-language" content="vi" />
+    <meta name="geo.region" content="VN" />
+    <meta name="geo.placename" content="Ho Chi Minh City" />
+    <meta name="geo.position" content="10.823099;106.629664" />
+    <meta name="ICBM" content="10.823099, 106.629664" />
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/image/favicons.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link href="<?php bloginfo('template_directory');?>/css/bootstrap.css" rel="stylesheet"/>
+    <link href="<?php bloginfo('template_directory');?>/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="<?php bloginfo('template_directory');?>/css/style.css" rel="stylesheet"/>
+    <script src="<?php bloginfo('template_directory');?>/js/modernizr-2.6.2.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/jquery-2.2.3.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/bootstrap.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/respond.js"></script>
+
+</head>
+<body>
+     <?php get_header(); ?>
+    <div class="body-content">
+        <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
+            <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
+        </div>
+
+        
+
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
+<style>
+    .head-bg {
+        background-image: url("<?php bloginfo('template_directory');?>/image/banner.jpg")/*tpa=http://magica.top/Imgs/banner.jpg*/;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x:58%;
+    }
+</style>
+
+<div>
+    <div id="full-action" class="callToAction" style="display:none">
+        <form>
+            <div class="form-group" style="text-align:center; position:relative">
+                <div style="font-size:20px">Miễn phí tư vấn</div>
+                <div style="font-size:17px">Hotline 
+                    <b>
+                        <?php
+                            $value = get_field( "phone-number" );
+                            if( $value ) { 
+                                echo $value;
+                            }
+                        ?>
+                    </b>
+                </div>
+                <span onclick="HideAction()" style="position:absolute; right:5px;top:3px; cursor:pointer"><i class="fa fa-times" aria-hidden="true"></i></span>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Họ và Tên">
+            </div>
+            <div class="form-group">
+                <input type="tel" class="form-control" id="phone" placeholder="Điện thoại">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="site" placeholder="Website">
+            </div>
+            <div class="form-group">
+                <textarea id="note" class="form-control" style="width:100%;" rows="3" placeholder="Nhu cầu: Từ khóa, ngân sách dự kiến, các yêu cầu khác"></textarea>
+            </div>
+            <div style="text-align:center">
+                <button onclick="SendEmail(1)" class="btn btn-default">GỬI</button>
+            </div>
+
+        </form>
+
+
+    </div>
+    <div id="mini-action" class="callToAction">
+        <div onclick="ShowAction()" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
+    </div>
+
+    <div class="col-md-12" style="padding: 0px">
+        <div id="banner" style="position:relative">
+            <div style="background-color:black; opacity:0.3; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
+            <div class="head-bg"></div>
+            <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
+                <div style="position: relative; left: -25%;">
+                    <h1 id="toptext">
+                        <span>Dịch vụ SEO</span>
+                    </h1>
+                    <h4>
+                        Mở cánh cửa đến với khách hàng
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div id="price" class="col-md-12 block" style="background-color:#fff;">
+        <div class="col-md-12" style="text-align:center;">
+            <h2 style="margin-bottom:20px">Các gói dịch vụ</h2>
+            <div>
+                <div class="row">
+                    <div class="container">
+                        <div class="col-md-12 no-padding">
+                            <div class="col-md-9 no-padding">
+                                <h3>SEO Từ Khóa</h3>
+                                <div class="col-md-4 package should-margin-bottom">
+                                    <div class="border-round">
+                                        <div class="header1">
+                                            <h3>Gói 1</h3>
+                                            <span class="sub">900,000 VNĐ</span>
+                                        </div>
+                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; padding:0;">
+                                            <p class="gray">Số lượng: 1 từ</p>
+                                            <p class="gray">Cạnh tranh: thấp</p>
+                                            <p class="gray">Top 10</p>
+                                            <p class="gray">3 tháng</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 package should-margin-bottom">
+                                    <div class="border-round">
+                                        <div class="header2">
+                                            <h3>Gói 2</h3>
+                                            <span class="sub">1,200,000 VNĐ</span>
+                                        </div>
+                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; padding:0">
+                                            <p class="gray">Số lượng: 1 từ</p>
+                                            <p class="gray">Cạnh tranh: thấp</p>
+                                            <p class="gray">Top 5</p>
+                                            <p class="gray">3 tháng</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 package should-margin-bottom">
+                                    <div class="border-round">
+                                        <div class="header3">
+                                            <h3>Gói 3</h3>
+                                            <span class="sub">1,600,000 VNĐ</span>
+                                        </div>
+                                        <div class="body" style=" border-top-left-radius:0; border-top-right-radius:0; padding:0">
+
+                                            <p class="gray">Số lượng: 1 từ</p>
+                                            <p class="gray">Cạnh tranh: thấp</p>
+                                            <p class="gray">Top 3</p>
+                                            <p class="gray">3 tháng</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 no-padding">
+                                <h3>SEO Tổng Thể</h3>
+                                <div class="col-md-12 package should-margin-bottom border-l">
+                                    <div class="border-round">
+                                        <div class="header4">
+                                            <h3 style="margin-bottom:15px">Gói 4</h3>
+                                            <p><span class="sub">Liên hệ để nhận báo giá</span></p>
+                                        </div>
+                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:160px">
+                                            <p>Số từ: 50 - 200 từ tùy theo yêu cầu và ngành nghề của khách hàng</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="feature" class="col-md-12" style="background-color:#eee">
+        <div class="margin-detail col-md-12">
+            <h2 class="prof">MAGIC Sẽ Giúp Bạn</h2>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="benefit">
+                                <div style="margin-bottom:15px">
+                                    <!-- <img style="height:150px" alt="Hình ảnh" src="<?php  //bloginfo('template_directory');?>/image/timhieuseo.png" tppabs="http://magica.top/Imgs/timhieuseo.png" /> -->
+
+                                    <?php 
+                                        $image = get_field('hieu-ve-seo');
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                    <?php endif; ?>
+                                </div>
+                                <h3>Hiểu về SEO</h3>
+                                <p style="min-height:67px;margin-bottom:0">Giúp bạn hiểu được SEO, tầm quan trọng và xây dựng chiến lược cho doanh nghiệp</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="benefit">
+                                <div style="margin-bottom:15px">
+                                    <!-- <img style="height:150px" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/tuvan.png" tppabs="http://magica.top/Imgs/tuvan.png" /> -->
+
+                                    <?php 
+                                        $image = get_field('xay-dung-chien-luoc');
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                    <?php endif; ?>
+
+                                </div>
+                                <h3>Xây dựng chiến lược</h3>
+                                <p style="min-height:67px;margin-bottom:0">Giúp xây dựng chiến lược SEO hiệu quả và tối ưu</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="benefit">
+                                <div style="margin-bottom:15px">
+                                    <!-- <img style="height:150px" alt="Hình ảnh" src="<?php// bloginfo('template_directory');?>/image/topseo.png" tppabs="http://magica.top/Imgs/topseo.png" /> -->
+
+                                    <?php 
+                                        $image = get_field('toi-uu-roi1');
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                    <?php endif; ?>
+
+                                </div>
+                                <h3>Tối ưu ROI</h3>
+                                <p style="min-height:67px;margin-bottom:0">Tiếp cận tối đa đối tượng khách hàng tiềm năng với chi phí tối ưu nhất</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="measurement" class="col-md-12" style="background-color:#fff; padding:30px 15px;">
+        <div class="row">
+            <div class="margin-detail col-md-12">
+                <h2>Chỉ số đo lường thành công của dự án</h2>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
+                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
+                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i></p>
+                </div>
+                <h4 style="font-size:18px">
+                    Doanh thu
+                </h4>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
+                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
+                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i></p>
+                </div>
+                <h4 style="font-size:18px">
+                    Tỷ lệ chuyển đổi khách hàng
+                </h4>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
+                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
+                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-user-plus" aria-hidden="true"></i></p>
+                </div>
+                <h4 style="font-size:18px">
+                    Số khách hàng tiềm năng truy cập
+                </h4>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
+                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
+                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-hand-pointer-o" aria-hidden="true"></i></p>
+                </div>
+                <h4 style="font-size:18px">
+                    Các chỉ số hành vi trên website
+                </h4>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="whyus" class="col-md-12" style="background-color:#eee;">
+        <div class="col-md-12" style="padding: 50px 0;">
+            <h2 style="text-align:center; margin-top:0; margin-bottom:50px">Tại Sao Lại Chọn Chúng Tôi?</h2>
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-12 no-padding">
+                        <div class="col-sm-3">
+                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                                <div class="spoint">
+                                    <div class="flip-container">
+                                        <div class="flipper">
+                                            <div class="front">
+                                                <div style="width:100%; height:150px;text-align:center">
+                                                    <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/target.jpg" tppabs="http://magica.top/Imgs/target.jpg" /> -->
+
+                                                    <?php 
+                                                        $image = get_field('tiep-can-dung-kh');
+                                                        if( !empty($image) ): 
+                                                            // vars
+                                                            $url = $image['url'];
+                                                            $title = $image['hinhanh'];
+                                                            $alt = $image['alt'];
+                                                            $caption = $image['caption'];
+                                                            // thumbnail
+                                                            $size = 'thumbnail';
+                                                            $thumb = $image['sizes'][ $size ];
+                                                            $width = $image['150px'][ $size . '-width' ];
+                                                            $height = $image['sizes'][ $size . '-height' ];
+                                                            if( $caption ): ?>
+                                                                <div class="wp-caption">
+                                                            <?php endif; ?>
+                                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                            </a>
+                                                            <?php if( $caption ): ?>
+                                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                                </div>
+                                                            <?php endif; ?>
+                                                    <?php endif; ?>
+
+                                                </div>
+                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                    Tiếp cận đúng khách hàng
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <p style="padding-top:70px">SEO đã thay đổi rất nhiều kể từ ngày mới xuất hiện, hầu hết các đơn vị truyền thống vẫn chỉ tìm cách đưa traffic vào website của bạn nhưng không giúp bạn bán hàng</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                                <div class="spoint">
+                                    <div class="flip-container">
+                                        <div class="flipper">
+                                            <div class="front">
+                                                <div style="width:100%; height:150px;text-align:center">
+                                                    <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/strategy.jpg" tppabs="http://magica.top/Imgs/strategy.jpg" /> -->
+
+
+                                                    <?php 
+                                                        $image = get_field('chien-luoc-kinh-doanh');
+                                                        if( !empty($image) ): 
+                                                            // vars
+                                                            $url = $image['url'];
+                                                            $title = $image['hinhanh'];
+                                                            $alt = $image['alt'];
+                                                            $caption = $image['caption'];
+                                                            // thumbnail
+                                                            $size = 'thumbnail';
+                                                            $thumb = $image['sizes'][ $size ];
+                                                            $width = $image['150px'][ $size . '-width' ];
+                                                            $height = $image['sizes'][ $size . '-height' ];
+                                                            if( $caption ): ?>
+                                                                <div class="wp-caption">
+                                                            <?php endif; ?>
+                                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                            </a>
+                                                            <?php if( $caption ): ?>
+                                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                                </div>
+                                                            <?php endif; ?>
+                                                    <?php endif; ?>
+
+                                                </div>
+                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                    Đồng bộ chiến lược kinh doanhh
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <p style="padding-top:70px">Không đơn thuần là SEO, chúng tôi còn tìm hiểu về đặc thù ngành và chiến lược công ty bạn để SEO phải đồng bộ với chiến lược kinh doanh của bạn</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                                <div class="spoint">
+                                    <div class="flip-container">
+                                        <div class="flipper">
+                                            <div class="front">
+                                                <div style="width:100%; height:150px;text-align:center">
+                                                   <!--  <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" /> -->
+
+                                                    <?php 
+                                                        $image = get_field('toi-uu-roi2');
+                                                        if( !empty($image) ): 
+                                                            // vars
+                                                            $url = $image['url'];
+                                                            $title = $image['hinhanh'];
+                                                            $alt = $image['alt'];
+                                                            $caption = $image['caption'];
+                                                            // thumbnail
+                                                            $size = 'thumbnail';
+                                                            $thumb = $image['sizes'][ $size ];
+                                                            $width = $image['150px'][ $size . '-width' ];
+                                                            $height = $image['sizes'][ $size . '-height' ];
+                                                            if( $caption ): ?>
+                                                                <div class="wp-caption">
+                                                            <?php endif; ?>
+                                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                            </a>
+                                                            <?php if( $caption ): ?>
+                                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                                </div>
+                                                            <?php endif; ?>
+                                                    <?php endif; ?>
+
+
+                                                </div>
+                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                    Tối ưu ROI
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <p style="padding-top:70px">
+                                                    Dựa trên công nghệ SEO được cập nhật liên tục, và nền tảng khách hàng mà chúng tôi đã hệ thống được sau 8 năm kinh nghiệm, chúng tôi có thể giúp bạn tối ưu hiệu quả trên tổng số tiền đầu tư
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                                <div class="spoint">
+                                    <div class="flip-container">
+                                        <div class="flipper">
+                                            <div class="front">
+                                                <div style="width:100%; height:150px;text-align:center">
+                                                    <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php// bloginfo('template_directory');?>/image/professional.jpg" tppabs="http://magica.top/Imgs/professional.jpg" /> -->
+
+
+                                                    <?php 
+                                                        $image = get_field('dich-vu-chuyen-nghiep');
+                                                        if( !empty($image) ): 
+                                                            // vars
+                                                            $url = $image['url'];
+                                                            $title = $image['hinhanh'];
+                                                            $alt = $image['alt'];
+                                                            $caption = $image['caption'];
+                                                            // thumbnail
+                                                            $size = 'thumbnail';
+                                                            $thumb = $image['sizes'][ $size ];
+                                                            $width = $image['150px'][ $size . '-width' ];
+                                                            $height = $image['sizes'][ $size . '-height' ];
+                                                            if( $caption ): ?>
+                                                                <div class="wp-caption">
+                                                            <?php endif; ?>
+                                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                            </a>
+                                                            <?php if( $caption ): ?>
+                                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                                </div>
+                                                            <?php endif; ?>
+                                                    <?php endif; ?>
+
+                                                </div>
+                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                    Dịch vụ chuyên nghiệp
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <p style="padding-top:70px">
+                                                    Tại Magic chúng tôi áp dụng quy trình kỹ thuật nghiêm ngặt, đội ngũ nhân viên làm việc dựa trên tinh thần hợp tác nhằm mang đến lợi ích cao nhất cho khách hàng
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="inspire" class="col-md-12" style="height:500px; padding-top:30px;background-image:url(<?php bloginfo('template_directory');?>/image/inspire.jpg);    background-repeat: no-repeat;
+    background-size: cover;">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-10 col-lg-offset-1">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6" style="padding-top:60px;color:#fff">
+                        <h3>SEO là gì?</h3>
+                        <p class="my-quote">
+                            SEO (search engine optimization) là phương pháp giúp website của bạn đạt được thứ hạng cao trên kết quả tìm kiếm, qua đó giúp hàng nghìn khách hàng tiềm năng khi đang tìm kiếm về sản phẩm, dịch vụ ghé thăm website, gian hàng của bạn.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="infor" class="col-md-12" style="background-color:#fff;">
+        <div class="col-md-12" style="padding: 20px 0 20px 0">
+            <h2 style="text-align:center; margin-top:15px; margin-bottom:50px;">SEO hiện đại và mối liên hệ đến doanh nghiệp</h2>
+            <div class="row">
+                <div class="col-md-10 col-lg-offset-1">
+                    <div class="col-md-12 no-padding" style="margin-bottom:15px;">
+                        <div class="col-md-6 col-sm-12" style="padding-left:0;">
+                            <div class="info" style="text-align:right; margin-bottom:10px">
+                                <div class="cnt">
+                                    <p>SEO hiện đại phải dẫn khách hàng đến sản phẩm, gian hàng của bạn, không phải dẫn đến bài viết hay blog </p>
+                                </div>
+                                <div class="img-i">
+                                    <img style="width:100px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf1.png" tppabs="http://magica.top/Imgs/inf1.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12" style="padding-right:0;">
+                            <div class="info" style="margin-bottom:10px">
+                                <div class="img-i2">
+                                    <img style="width:100px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf2.png" tppabs="http://magica.top/Imgs/inf2.png" />
+                                </div>
+                                <div class="cnt2">
+                                    <p>SEO phải đi từ hiểu biết về sản phẩm, dịch vụ, chiến lược của doanh nghiệp, không thể tách rời được</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 no-padding">
+                        <div class="col-md-6" style="padding-left:0;">
+                            <div class="info" style="text-align:right; margin-bottom:10px">
+                                <div class="cnt">
+                                    <p>Thành công lâu dài, bền vững của SEO phải đến từ cách trình bày website, cách tổ chức sản phẩm, gian hàng, chứ không phải đến từ kỹ thuật spam</p>
+                                </div>
+                                <div class="img-i">
+                                    <img style="width:100px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf3.png" tppabs="http://magica.top/Imgs/inf3.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" style="padding-right:0">
+                            <div class="info">
+                                <div class="img-i2">
+                                    <img style="width:100px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf4.png" tppabs="http://magica.top/Imgs/inf4.png" />
+                                </div>
+                                <div class="cnt2">
+                                    <p>Hiệu quả của SEO phải đo lường từ doanh số bán hàng, chứ không phải số lượng người vào website</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="flow" class="col-md-12" style="background-color:#63c1af; color:#fff;">
+        <div class="col-md-12" style="text-align:center">
+            <h2 style="margin-bottom:20px">Quy trình làm việc</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-12 no-padding">
+                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                    <div class="step-contain">
+                                        <div class="step1 step">
+                                            <div>
+                                                <span class="fa-stack fa-5x">
+                                                    <span class="step-num"><span>1</span></span>
+                                                    <i style="color:#fff" class="fa fa-circle fa-stack-2x"></i>
+                                                    <i style="color:#fff" class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i style="color:#63c1af" class="fa fa-search fa-stack-1x"></i>
+                                                </span>
+
+                                            </div>
+                                            <div style="font-size:20px">Chẩn đoán miễn phí</div>
+                                        </div>
+                                        <div class="step-desc">
+                                            <p>Chẩn đoán: Nội dung, trải nghiệm người dùng, On-page, Off-page, Tình hình sức khỏe SEO hiện tại, Giới thiệu về các từ khóa/gốc từ khóa của ngành</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                    <div class="step-contain">
+                                        <div class="step1 step">
+                                            <div>
+                                                <span class="fa-stack fa-5x">
+                                                    <span class="step-num"><span>2</span></span>
+                                                    <i style="color:#fff" class="fa fa-circle fa-stack-2x"></i>
+                                                    <i style="color:#fff" class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i style="color:#63c1af" class="fa fa-list-ul fa-stack-1x"></i>
+                                                </span>
+                                            </div>
+                                            <div style="font-size:20px">Lấy yêu cầu</div>
+                                        </div>
+                                        <div class="step-desc">
+                                            <p>Lấy yêu cầu về mục tiêu của dự án. Chia sẻ kiến thức về SEO để khách hàng định hình rõ mối liên hệ của SEO trong chiến lược của mình (nếu cần)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                    <div class="step-contain">
+                                        <div class="step1 step">
+                                            <div>
+                                                <span class="fa-stack fa-5x">
+                                                    <span class="step-num"><span>3</span></span>
+                                                    <i style="color:#fff" class="fa fa-circle fa-stack-2x"></i>
+                                                    <i style="color:#fff" class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i style="color:#63c1af" class="fa fa-files-o fa-stack-1x"></i>
+                                                </span>
+                                            </div>
+                                            <div style="font-size:20px">Lập giải pháp/ký hợp đồng</div>
+                                        </div>
+                                        <div class="step-desc">
+                                            <p>Tư vấn khách hàng để điều chỉnh mục tiêu (nếu cần).Thống nhất giải pháp.Ký hợp đồng</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 no-padding">
+                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                    <div class="step-contain">
+                                        <div class="step1 step">
+                                            <div>
+                                                <span class="fa-stack fa-5x">
+                                                    <span class="step-num"><span>4</span></span>
+                                                    <i style="color:#fff" class="fa fa-circle fa-stack-2x"></i>
+                                                    <i style="color:#fff" class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i style="color:#63c1af" class="fa fa-calendar fa-stack-1x"></i>
+                                                </span>
+                                            </div>
+                                            <div style="font-size:20px">Lập kế hoạch</div>
+                                        </div>
+                                        <div class="step-desc">
+                                            <p>Kế hoạch hành động về nội dung (content), on-page, off-page với thời gian cụ thể</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                    <div class="step-contain">
+                                        <div class="step1 step">
+                                            <div>
+                                                <span class="fa-stack fa-5x">
+                                                    <span class="step-num"><span>5</span></span>
+                                                    <i style="color:#fff" class="fa fa-circle fa-stack-2x"></i>
+                                                    <i style="color:#fff" class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i style="color:#63c1af" class="fa fa-bar-chart fa-stack-1x"></i>
+                                                </span>
+                                            </div>
+                                            <div style="font-size:20px">Triển khai và báo cáo</div>
+                                        </div>
+                                        <div class="step-desc">
+                                            <p>Báo cáo định kỳ 1/2 tuần</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                    <div class="step-contain">
+                                        <div class="step1 step">
+                                            <div>
+                                                <span class="fa-stack fa-5x">
+                                                    <span class="step-num"><span>6</span></span>
+                                                    <i style="color:#fff" class="fa fa-circle fa-stack-2x"></i>
+                                                    <i style="color:#fff" class="fa fa-circle-thin fa-stack-2x"></i>
+                                                    <i style="color:#63c1af" class="fa fa-tachometer fa-stack-1x"></i>
+                                                </span>
+                                            </div>
+                                            <div style="font-size:20px">Tổng kết</div>
+                                        </div>
+                                        <div class="step-desc">
+                                            <p>Đánh giá về mức độ thực hiện. Không thanh toán cho các cam kết không thực hiện được. Kế hoạch tiếp theo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="achievement" class="col-md-12">
+        <div style="background-color: black; opacity:0.7; height:100%; width:100%; position:absolute;top:0; left:0"></div>
+        <div class="col-md-12" style="text-align:center">
+            <div style="margin-bottom:20px">
+                <h2>Thành Tích Của Chúng Tôi</h2>
+                <h4><small>GIẢI PHÁP SEO HOÀN HẢO DÀNH CHO BẠN</small></h4>
+            </div>
+            <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-4 achive">
+                    <div class="h2">+1000</div>
+                    Khách hàng đã SEO
+                </div>
+                <div class="col-md-4 achive">
+                    <div class="h2">+10000</div>
+                    Từ khóa lên TOP
+                </div>
+                <div class="col-md-4 achive">
+                    <div class="h2">300%</div>
+                    Lượng khách hàng tăng sau SEO
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="testimonial" class="col-md-12 block" style="background-color:#fff; padding-top:40px">
+        <div class="col-md-10 col-lg-offset-1" style="padding-bottom:15px">
+            <h2 style="text-align:center; margin-bottom: 40px">Mọi Người Nói Gì Về Chúng Tôi</h2>
+            <div class="col-md-4">
+                <div style="text-align:center">
+                    <img style="height:150px; width:150px; border-radius:50%" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t1.jpg" tppabs="http://magica.top/Imgs/t1.jpg" />
+                </div>
+                <div style="text-align:center; color:#6ab139;margin:10px">
+                    <i class="fa fa-fw fa-2x fa-quote-right"></i>
+                </div>
+                <div>
+                    <p style="text-align:justify">Doanh thu của chúng tôi tăng rõ rệt sau khi chạy SEO các từ khóa xây dựng</p>
+                    <h4 style="text-align:center; margin-bottom:0">
+                        Chị Thúy Hà
+                    </h4>
+                    <p style="color:#ccc; font-size:13px;text-align:center">Cty Xây Dựng MTV</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div style="text-align:center">
+                    <img style="height:150px; width:150px; border-radius:50%" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t2.jpg" tppabs="http://magica.top/Imgs/t2.jpg" />
+                </div>
+                <div style="text-align:center;color:#6ab139;margin:10px">
+                    <i class="fa fa-fw fa-2x fa-quote-right"></i>
+                </div>
+                <div>
+                    <p style="text-align:justify">Chi phí marketing giảm đáng kể sau khi sử dụng dịch vụ SEO của công ty Magic</p>
+                    <h4 style="text-align:center;margin-bottom:0">Chị Kim Na</h4>
+                    <p style="color:#ccc; font-size:13px;text-align:center">Cty Sửa xe Kim Tiến</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div style="text-align:center">
+                    <img style="height:150px; width:150px; border-radius:50%" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t3.png" tppabs="http://magica.top/Imgs/t3.png" />
+                </div>
+                <div style="text-align:center;color:#6ab139; margin:10px">
+                    <i class="fa fa-fw fa-2x fa-quote-right"></i>
+                </div>
+                <div>
+                    <p style="text-align:justify">Sau khi sử dụng dịch vụ, kiến thức SEO của tôi được cải thiện. Giờ đây tôi có thể điều chỉnh chi phí marketing cho riêng mình</p>
+                    <h4 style="text-align:center; margin-bottom:0">Anh Tiến</h4>
+                    <p style="color:#ccc; font-size:13px;text-align:center">Trưởng phòng kinh doanh Cty WonderWood</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        
+        <?php get_footer(); ?>
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-79228914-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</body>
+</html>
