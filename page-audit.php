@@ -270,7 +270,7 @@
                                             </div>
                                             <div class="back">
                                                 <p style="padding-top: 0;">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum! Blanditiis, ratione quisquam quia aliquid temporibus sint enim adipisci vitae distinctio amet minus at suscipit! In possimus praesentium obcaecati est totam commodi doloribus natus, expedita accusamus quos, quas ut molestias. Officia in, quam numquam maiores, architecto hic illum consequuntur.
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perspiciatis nobis rerum sunt, optio suscipit! Consequatur, molestias consequuntur. Possimus, obcaecati quisquam dolores ab.
                                                 </p>
                                             </div>
                                         </div>
@@ -320,7 +320,7 @@
                                             </div>
                                             <div class="back">
                                                 <p style="padding-top:0;">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum numquam eum obcaecati, modi atque delectus, magnam architecto, aliquam praesentium sapiente mollitia commodi error, animi odit sequi quo fugiat accusamus. Doloribus veniam nesciunt, quo corporis harum voluptatibus, fugit, perferendis at iure, placeat iusto adipisci. Iure esse modi nesciunt sit, accusantium officiis voluptates aut, magnam laudantium fugit eligendi soluta reprehenderit consequuntur maxime, numquam, sint distinctio nulla doloremque commodi vitae. Consectetur, eaque, vitae.
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni dignissimos quae sint praesentium nam doloribus, autem adipisci expedita asperiores nostrum sunt, in minima. Placeat.
                                                 </p>
                                             </div>
                                         </div>
@@ -370,7 +370,7 @@
                                             </div>
                                             <div class="back">
                                                 <p style="padding-top:0;">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quam delectus atque repellat quidem sint, voluptatem, iusto a cum qui. Nam porro iure aperiam quos, error similique molestiae perferendis officiis earum, dolore natus dicta consectetur provident ut optio in facilis nihil quas nostrum. A provident delectus tempore sunt voluptatem consequuntur sequi libero, obcaecati perspiciatis, quaerat, doloribus quas repudiandae vitae, dolor architecto quis. Possimus eum tempore iure sed nihil dicta quos.
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptate repellat doloremque aperiam aliquid necessitatibus vero id est dolorem eius?
                                                 </p>
                                             </div>
                                         </div>
