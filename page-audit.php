@@ -443,55 +443,61 @@
         </div>
     </div>
 
-    <div class="myClass mobile-screen">
-        <h2>Các hạng mục audit</h2>
-        <div class="row" style="padding-left: 2em;">
 
-            <div class="span5 text-center">
-                <div class="keyword" style="background-color: #ff7f27;">
-                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
-                    <h3 class="h3-lam">Hệ thống content</h3>
+    <div style="background-color: #efe4b0; padding-top: 1em;" class="text-center">
+        <h2 style="margin-bottom: 1em;">Các hạng mục audit</h2>
+        <div class="myClass mobile-screen text-center" >
+
+            <div class="row" style="padding-left: 2em;">
+
+                <div class="span5 text-center">
+                    <div class="keyword" style="background-color: #ff7f27;">
+                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+
+                      
+                    </div>
+                </div>
+
+                <div class="span5 text-center">
+                    <div class="keyword" style="background-color: #a0436b;">
+                       <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                      
+
+                   </div>
+               </div>
+
+               <div class="span5 text-center">
+                <div class="keyword">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                    
                 </div>
             </div>
 
             <div class="span5 text-center">
-                <div class="keyword" style="background-color: #a0436b;">
-                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
-                 <h3 class="h3-lam">Hệ thống<br>backlink</h3>
-             </div>
-         </div>
-
-         <div class="span5 text-center">
-            <div class="keyword">
-                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                <h3 class="h3-lam">Keyword</h3>
-                <h3 class="h3-lam">Landing page</h3>
+                <div class="keyword" style="background-color: #893fae;">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
+                   
+                </div>
             </div>
-        </div>
 
-        <div class="span5 text-center">
-            <div class="keyword" style="background-color: #893fae;">
-                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
-                <h3 class="h3-lam">UX</h3>
+            <div class="span5 text-center">
+                <div class="keyword" style="background-color: #ffaeb0;">
+                   <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
+                  
+               </div>
+           </div>
+
+           <div class="span5 text-center">
+            <div class="keyword" style="background-color: #22b14c;">
+                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
+                
             </div>
-        </div>
+        </div>  
 
-        <div class="span5 text-center">
-            <div class="keyword" style="background-color: #ffaeb0;">
-             <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
-             <h3 class="h3-lam">Onpage</h3>
-         </div>
-     </div>
-
-     <div class="span5 text-center">
-        <div class="keyword" style="background-color: #22b14c;">
-            <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
-            <h3 class="h3-lam">Cấu trúc<br>liên kết link </h3>
-        </div>
-    </div>  
+    </div>
+</div>
+</div>
     
-</div>
-</div>
     
 <!-- huong start -->
     <div id="price" class="col-md-12 block" >
