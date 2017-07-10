@@ -268,7 +268,7 @@
                 <div class="row">
                     <div class="container">
                         <div class="col-md-12 no-padding">
-                            <div class="col-md-4 no-padding">
+                            <div class="col-md-6 no-padding">
                                 <div class="col-md-12 package should-margin-bottom border-l">
                                     <div class="border-round">
                                         <div class="header4">
@@ -296,9 +296,9 @@
                                                 </div>
                                                 <?php endif; ?>
                                             <?php endif; ?>
-                                            <!-- <p><span class="sub">Liên hệ để nhận báo giá</span></p> -->
+                                            <p><span class="sub">2 triệu/ lần</span></p>
                                         </div>
-                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:160px">
+                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:90px">
                                             <p>
                                                 Một bảng report tổng quan về tình trạng sức khỏe hiện tại của website. 
                                             </p>
@@ -309,7 +309,7 @@
                             </div>
 
 
-                            <div class="col-md-4">
+                            <!-- <div class="col-md-4">
                                 <div style=" background-image: url("<?php bloginfo('template_directory');?>/image/diamond.png ;");">
                                     <div class="h2-huong">
                                         <h2 style="margin-top: 12rem;padding: 2rem 1rem 2rem 1rem ;">
@@ -317,10 +317,10 @@
                                         </h2>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
 
-                            <div class="col-md-4 no-padding">
+                            <div class="col-md-6 no-padding">
                                 <div class="col-md-12 package should-margin-bottom border-l">
                                     <div class="border-round">
                                         <div class="header4">
@@ -348,9 +348,9 @@
                                                 </div>
                                                 <?php endif; ?>
                                             <?php endif; ?>
-                                            <!-- <p><span class="sub">Liên hệ để nhận báo giá</span></p> -->
+                                            <p ><span class="sub">2 triệu/lần</span></p>
                                         </div>
-                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:160px">
+                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:90px">
                                             <p>
                                                 Một buổi diễn giải & hướng dẫn cách thức chỉnh sửa.
                                             </p>

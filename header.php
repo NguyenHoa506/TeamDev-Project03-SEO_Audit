@@ -35,6 +35,7 @@
                         <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/seo">SEO</a></li>
                         <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads">QUẢNG CÁO GOOGLE</a></li>
                         <li class="tb-hide" style="padding:5px 0;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
+                        <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/audit">AUDIT WEB</a></li>
                         <li class="tb-hide" style="padding:5px 0; margin-bottom:7px"><a href="http://blog.magica.top/">SEO BLOG</a></li>
                         <li>
                             <a href="#"><span class="top-hotline">
