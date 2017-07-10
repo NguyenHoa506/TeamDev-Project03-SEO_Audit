@@ -168,13 +168,13 @@
             <div class="row" align="center">
                 <h2>Mục Đích</h2>
             </div>
-            <div class="row">
+            <div class="row div-cach">
                 <div class="col-md-10 col-md-offset-1 col-xs-12">
                     <div class="col-md-12 col-xs-12">
                         <div class="col-md-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
-                                    <!--<img style="width: 100px" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png"-->
+                                    <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png">
                                 </div>
                                 <div>
                                     <h4>Có cái nhìn khách quan từ bên ngoài về tình trạng SEO hiện tại</h4>
@@ -185,10 +185,10 @@
                         <div class="col-md-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
-                                    <!--img style="width: 100px; padding-left: 10px" src="<?php bloginfo('template_directory');?>/image/refresh-button.png"-->
+                                    <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/refresh-button.png">
                                 </div>
                                 <div>
-                                    <h4>Được hỗ trợ tư vấn chuyên sâu về từng vấn đề của SEO mà ít có team nào có thể bao quát hết được</h4>                        
+                                     <h4>Cập nhập những thay đổi mới nhất từ Google & cải tiến hệ thống SEO hiện tại</h4>                       
                                 </div>
                             </div>
                         </div>
@@ -196,10 +196,10 @@
                         <div class="col-md-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
-                                    <!--img style="width: 100px" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png"-->
+                                    <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png">
                                 </div>
                                 <div>
-                                    <h4>Cập nhập những thay đổi mới nhất từ Google & cải tiến hệ thống SEO hiện tại</h4>
+                                    <h4>Được hỗ trợ tư vấn chuyên sâu về từng vấn đề của SEO mà ít có team nào có thể bao quát hết được</h4>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +209,6 @@
         </div>
     </div>
     
-    <!-- Hoa end -->
     <!-- Hoa end -->
 
     

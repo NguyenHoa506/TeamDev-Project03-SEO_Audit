@@ -856,9 +856,11 @@ ul.arr li:before {
     background: #63c1af;
     color: white;
 }
-.div-img{
-    height: 90px;
-    width: 100px;
+.div-cach{
+    margin-top: 50px;
 }
-
+.div-imgh{
+    width: 100px;
+    margin: 10px;
+}
 /* Hoa */
