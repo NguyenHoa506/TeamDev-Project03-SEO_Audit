@@ -850,6 +850,7 @@ ul.arr li:before {
 
 }
 
+<<<<<<< HEAD
 
 /* huong start*/
 
@@ -861,3 +862,38 @@ ul.arr li:before {
 
 /*lam start*/
 /*lan end*/
+=======
+ /*
+    Lam
+*/
+    .hangmuc-audit {
+        background-color: #FFCC99;
+        margin-top: 3em;
+    }
+    .image-size-lam {
+        width: 45%;
+        height: auto;
+    }
+
+    .keyword {
+        height: 15em;
+        width: 15em;
+        margin: 0 auto;
+        padding-top: 1em;
+        background-color: #33CCFF;
+        border-radius: 50%;
+        
+    }
+
+    .keyword1 {
+        height: 20em;
+        width: 20em;
+        background-color: white;
+
+    }
+
+    .h3-lam {
+        margin-top: 0.2em;
+        margin-bottom: 0;
+    }
+>>>>>>> 923ef2eddcd596b26864634e823fc8dadb3ee721
