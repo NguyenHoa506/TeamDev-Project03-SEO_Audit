@@ -397,7 +397,7 @@
                                                             if( $caption ): ?>
                                                                 <div class="wp-caption">
                                                             <?php endif; ?>
-                                                            <a href=" " title="<?php echo $title; ?>">
+                                                            <a  title="<?php echo $title; ?>">
                                                                 <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                             </a>
                                                             <?php if( $caption ): ?>
@@ -445,7 +445,7 @@
                                                             if( $caption ): ?>
                                                                 <div class="wp-caption">
                                                             <?php endif; ?>
-                                                            <a href=" " title="<?php echo $title; ?>">
+                                                            <a title="<?php echo $title; ?>">
                                                                 <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                             </a>
                                                             <?php if( $caption ): ?>
@@ -492,7 +492,7 @@
                                                             if( $caption ): ?>
                                                                 <div class="wp-caption">
                                                             <?php endif; ?>
-                                                            <a href=" " title="<?php echo $title; ?>">
+                                                            <a  title="<?php echo $title; ?>">
                                                                 <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                             </a>
                                                             <?php if( $caption ): ?>
@@ -543,7 +543,7 @@
                                                             if( $caption ): ?>
                                                                 <div class="wp-caption">
                                                             <?php endif; ?>
-                                                            <a href=" " title="<?php echo $title; ?>">
+                                                            <a title="<?php echo $title; ?>">
                                                                 <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                             </a>
                                                             <?php if( $caption ): ?>
