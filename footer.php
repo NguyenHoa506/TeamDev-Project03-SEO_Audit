@@ -1,5 +1,5 @@
 
-        <div id="customer" class="col-md-12" style="background-color:#fff; padding-top:50px; ">
+        <div id="customer" class="col-md-12 col-sm-12 col-md-12" style="background-color:#fff; padding-top:50px; ">
             <div class="margin-detail col-md-12">
                 <h2 style="color:#6ab139">Khách Hàng Của Chúng Tôi</h2>
             </div>
@@ -19,13 +19,13 @@
                                             // thumbnail
                                             $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['150px'][ $size . '-width' ];
-                                            $height = $image['280px'][ $size . '-height' ];
+                                            $width = $image['size'][ $size . '-width' ];
+                                            $height = $image['size'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>"  width="100%" height="auto"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                             <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -48,13 +48,13 @@
                                             // thumbnail
                                             $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['150px'][ $size . '-width' ];
+                                            $width = $image['size'][ $size . '-width' ];
                                             $height = $image['sizes'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>"  width="100%" height="auto"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                             <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -77,13 +77,13 @@
                                             // thumbnail
                                             $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['150px'][ $size . '-width' ];
+                                            $width = $image['size'][ $size . '-width' ];
                                             $height = $image['sizes'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>"  width="100%" height="auto"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                             <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -106,13 +106,13 @@
                                             // thumbnail
                                             $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['150px'][ $size . '-width' ];
+                                            $width = $image['size'][ $size . '-width' ];
                                             $height = $image['sizes'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>"  width="100%" height="auto" />
                                             </a>
                                             <?php if( $caption ): ?>
                                             <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -137,13 +137,13 @@
                                             // thumbnail
                                             $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['150px'][ $size . '-width' ];
+                                            $width = $image['size'][ $size . '-width' ];
                                             $height = $image['sizes'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>"  width="100%" height="auto" />
                                             </a>
                                             <?php if( $caption ): ?>
                                             <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -167,13 +167,13 @@
                                             // thumbnail
                                             $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['150px'][ $size . '-width' ];
+                                            $width = $image['size'][ $size . '-width' ];
                                             $height = $image['sizes'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a  <?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="100%" height="auto" />
                                             </a>
                                             <?php if( $caption ): ?>
                                             <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -197,13 +197,13 @@
                                             // thumbnail
                                             $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['150px'][ $size . '-width' ];
-                                            $height = $image['280px'][ $size . '-height' ];
+                                            $width = $image['size'][ $size . '-width' ];
+                                            $height = $image['size'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>"  width="100%" height="auto" />
                                             </a>
                                             <?php if( $caption ): ?>
                                             <p class="wp-caption-text"><?php echo $caption; ?></p>

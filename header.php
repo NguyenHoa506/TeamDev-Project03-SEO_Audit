@@ -16,7 +16,7 @@
                     <div class="big-logo">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img style="height:40px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" /></a>
                     </div>
-                    <ul class="nav navbar-nav pull-right" style="padding-top:12px">
+                    <ul class="nav navbar-nav pull-right" >
                         <li class="dropdown tb-show">
                             <a class="hasSub" href="#">DỊCH VỤ</a>
                             <ul class="dropdown-menu">
