@@ -385,7 +385,7 @@
     </div>
 
 
-    <div id="customer" class="col-md-12 text-center" style="padding-top:50px; ">
+    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:50px; ">
         <h2>Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
@@ -437,6 +437,53 @@
                         <h3 class="h3-lam">Cấu trúc liên kết link </h3>
                         
                     </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="myClass mobile-screen">
+        <div class="row" style="padding-left: 2em;">
+            <div class="span5 text-center">
+                <div class="keyword landing">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                    <h3 class="h3-lam">Keyword</h3>
+                    <h3 class="h3-lam">Landing page</h3>
+                </div>
+            </div>
+
+            <div class="span5">
+                <div class="keyword ux" style="background-color: #893fae;">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
+                    <h3 class="h3-lam">UX</h3>
+
+                </div>
+            </div>
+            <div class="span5">
+                <div class="keyword onpage" style="">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
+                    <h3 class="h3-lam">Onpage</h3>
+                </div>
+            </div>
+            <div class="span5">
+                <div class="keyword link" style="">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
+                    <h3 class="h3-lam">Cấu trúc liên kết link </h3>
+                    
+                </div>
+            </div>
+            <div class="span5">
+                <div class="keyword content" >
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+                    <h3 class="h3-lam">Hệ thống content</h3>
+                    
+                </div>
+            </div>
+            <div class="span5">
+                <div class="keyword backlink">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                    <h3 class="h3-lam">Hệ thống<br>backlink</h3>
 
                 </div>
             </div>

@@ -971,6 +971,37 @@ ul.arr li:before {
     }
 }
 
+/*Mobile*/
+@media screen and (max-width: 480px) {
+
+    div.myClass {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    div.myClass [class*="col"], /* TWBS v3 */
+    div.myClass [class*="span"] {  /* TWBS v2 */
+        display: inline-block;
+        float: none; /* Very important */
+    }
+    .lg-screen {
+        display: none;
+    }
+
+    .keyword {
+        height: 15em;
+        width: 15em;
+        margin: 0 auto;
+        padding-top: 1em;
+        background-color: #33CCFF;
+        border-radius: 10%;
+    }
+
+    .span5 {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+
 
 /* Hoa */
 .div-head{
