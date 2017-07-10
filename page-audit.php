@@ -254,7 +254,7 @@
                                                             if( $caption ): ?>
                                                                 <div class="wp-caption">
                                                             <?php endif; ?>
-                                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                            <a title="<?php echo $title; ?>">
                                                                 <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                             </a>
                                                             <?php if( $caption ): ?>
@@ -304,7 +304,7 @@
                                                             if( $caption ): ?>
                                                                 <div class="wp-caption">
                                                             <?php endif; ?>
-                                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                            <a title="<?php echo $title; ?>">
                                                                 <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                             </a>
                                                             <?php if( $caption ): ?>
@@ -353,7 +353,7 @@
                                                             if( $caption ): ?>
                                                                 <div class="wp-caption">
                                                             <?php endif; ?>
-                                                            <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                            <a title="<?php echo $title; ?>">
                                                                 <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                             </a>
                                                             <?php if( $caption ): ?>
@@ -384,7 +384,7 @@
         </div>
     </div>
 
-
+<!-- huong end -->
     <div id="customer" class="col-md-12 text-center" style="padding-top:50px; ">
         <h2>Các hạng mục audit</h2>
 
@@ -443,7 +443,7 @@
         </div>
     </div>
     
-
+<!-- huong start -->
     <div id="price" class="col-md-12 block" >
         <div class="col-md-12" style="text-align:center;">
             <h2 style="margin-bottom:20px">Chi tiết dịch vụ</h2>
@@ -466,12 +466,12 @@
                                                             // thumbnail
                                                 $size = 'thumbnail';
                                                 $thumb = $image['sizes'][ $size ];
-                                                $width = $image['150px'][ $size . '-width' ];
+                                                $width = $image['size'][ $size . '-width' ];
                                                 $height = $image['sizes'][ $size . '-height' ];
                                                 if( $caption ): ?>
                                                 <div class="wp-caption">
                                                     <?php endif; ?>
-                                                    <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                    <a title="<?php echo $title; ?>">
                                                     <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                     </a>
                                                     <?php if( $caption ): ?>
@@ -523,7 +523,7 @@
                                                 if( $caption ): ?>
                                                 <div class="wp-caption">
                                                     <?php endif; ?>
-                                                    <a href="<?php echo $url; ?>" title="<?php echo $title; ?>">
+                                                    <a  title="<?php echo $title; ?>">
                                                     <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                                                     </a>
                                                     <?php if( $caption ): ?>
@@ -548,11 +548,6 @@
         </div>
     </div>
     <!-- Huong end -->
-    
-    
-    
-    
-    
     
     
     <?php get_footer(); ?>
