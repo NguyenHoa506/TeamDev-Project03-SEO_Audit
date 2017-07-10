@@ -442,15 +442,68 @@
             </div>
         </div>
     </div>
+
+    <div class="myClass mobile-screen">
+        <h2>Các hạng mục audit</h2>
+        <div class="row" style="padding-left: 2em;">
+
+            <div class="span5 text-center">
+                <div class="keyword" style="background-color: #ff7f27;">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+                    <h3 class="h3-lam">Hệ thống content</h3>
+                </div>
+            </div>
+
+            <div class="span5 text-center">
+                <div class="keyword" style="background-color: #a0436b;">
+                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                 <h3 class="h3-lam">Hệ thống<br>backlink</h3>
+             </div>
+         </div>
+
+         <div class="span5 text-center">
+            <div class="keyword">
+                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                <h3 class="h3-lam">Keyword</h3>
+                <h3 class="h3-lam">Landing page</h3>
+            </div>
+        </div>
+
+        <div class="span5 text-center">
+            <div class="keyword" style="background-color: #893fae;">
+                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
+                <h3 class="h3-lam">UX</h3>
+            </div>
+        </div>
+
+        <div class="span5 text-center">
+            <div class="keyword" style="background-color: #ffaeb0;">
+             <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
+             <h3 class="h3-lam">Onpage</h3>
+         </div>
+     </div>
+
+     <div class="span5 text-center">
+        <div class="keyword" style="background-color: #22b14c;">
+            <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
+            <h3 class="h3-lam">Cấu trúc<br>liên kết link </h3>
+        </div>
+    </div>  
+    
+</div>
+</div>
+
     
 <!-- huong start -->
     <div id="price" class="col-md-12 block" >
         <div class="col-md-12" style="text-align:center; margin-bottom: 1rem;">
-            <h2 class="h3-huong" style="margin-bottom:20px">Chi tiết dịch vụ</h2>
+            <h2 style="margin-bottom:20px">Chi tiết dịch vụ</h2>
         </div>
-        <!-- <div class="col-md-12" style="text-align:center;">
-            <h3 style="margin-bottom:20px">Chi tiết dịch vụ</h3>
-        </div> -->
+        <div class="col-md-12" style="text-align:center;">
+            <h3 class="h3-huong"  style="margin-bottom:20px">
+                Giá của dịch vụ là 2 triệu/lần bao gồm 2 thành phần như sau.
+            </h3>
+        </div>
         <div class="col-md-12" style="text-align:center;">
             <div>
                 <div class="row">
@@ -459,7 +512,7 @@
                             <div class="col-md-6 no-padding">
                                 <div class="col-md-12 package should-margin-bottom border-l">
                                     <div class="border-round">
-                                        <div class="header4">
+                                        <div class="header41">
                                             <?php 
                                                 $image = get_field('dich-vu1');
                                                 if( !empty($image) ): 
@@ -484,7 +537,7 @@
                                                 </div>
                                                 <?php endif; ?>
                                             <?php endif; ?>
-                                            <p><span class="sub">1 triệu/ lần</span></p>
+                                          <!--   <p><span class="sub">1 triệu/ lần</span></p> -->
                                         </div>
                                         <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:90px">
                                             <p>
@@ -511,7 +564,7 @@
                             <div class="col-md-6 no-padding">
                                 <div class="col-md-12 package should-margin-bottom border-l">
                                     <div class="border-round">
-                                        <div class="header4">
+                                        <div class="header42">
                                             <?php 
                                                 $image = get_field('dich-vu2');
                                                 if( !empty($image) ): 
@@ -536,7 +589,7 @@
                                                 </div>
                                                 <?php endif; ?>
                                             <?php endif; ?>
-                                            <p ><span class="sub">1 triệu/lần</span></p>
+                                            <!-- <p ><span class="sub">1 triệu/lần</span></p> -->
                                         </div>
                                         <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:90px">
                                             <p>

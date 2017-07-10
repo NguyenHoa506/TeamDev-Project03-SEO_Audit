@@ -501,6 +501,7 @@ footer{
 }
 
 #feature, #flow, #price{
+    background-color: #E9EEF0;
     padding: 30px 15px 30px 15px ;
 }
 .margin-detail{
@@ -617,7 +618,7 @@ ul.arr li:before {
     box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
 }
 .border-l{
-    border-left: 2px solid #fff;
+    border-left: 0px solid #fff;
 }
     .padding-t{
         padding-top:60px;
@@ -783,6 +784,7 @@ ul.arr li:before {
         text-align:center
     }
     #flow, #price{
+
          padding: 20px 10px;
     }
 
@@ -853,9 +855,12 @@ ul.arr li:before {
 
 
 /*Page Audit*/
-.mobile-screen {
-    display: none;
+@media screen and (min-width: 1025px){
+    .mobile-screen {
+        display: none;
+    }
 }
+
 
 .lg-screen {
     background-color: #efe4b0;
@@ -1014,8 +1019,7 @@ ul.arr li:before {
         padding-left: 1em;
         padding-right: 1em;
     }
-
-
+}
 
 /* Hoa */
 .div-head{
@@ -1044,22 +1048,39 @@ ul.arr li:before {
     padding-top: 14rem;
 }
 
+
+.h3-huong{
+    background-color: #d9534f;
+    padding: 2rem 0;
+    border-style: none;
+    border-radius: 10px;
+    margin: 0 9.4rem;
+}
 .header41{
     color:#fff;
     padding: 15px 0 ;
-    background-color:#d95344;
+    background-color:#7EF280;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
-.header41 .sub1{
+.header41 .sub{
     background-color:#d43f3a;
     font-size: 16px;
     border-radius:20px;
     padding:5px 10px 5px 10px
 }
-.h3-huong{
-    background-color: red;
-
+.header42{
+    color:#fff;
+    padding: 15px 0 ;
+    background-color:#63C0F2;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.header42 .sub{
+    background-color:#d43f3a;
+    font-size: 16px;
+    border-radius:20px;
+    padding:5px 10px 5px 10px
 }
 /*huong end*/
 
