@@ -320,16 +320,16 @@ h1{
     padding:5px 10px 5px 10px
 }
 .header4{
-        color:#fff;
+    color:#fff;
     padding: 15px 0 ;
     background-color:#d9534f;
-        border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .header4 .sub{
     background-color:#d43f3a;
-        font-size: 16px;
-            border-radius:20px;
+    font-size: 16px;
+    border-radius:20px;
     padding:5px 10px 5px 10px
 }
 
@@ -349,15 +349,15 @@ h1{
 }
 .step-num{
     position: absolute;
-                                                top: 11px;
-                                                left: 11px;
-                                                color: #63c1af;
-                                                background-color: #fff;
-                                                height: 31px;
-                                                width: 31px;
-                                                border-radius: 50%;
-                                                font-weight: bold;z-index:1000;
-                                                font-size: 20px;border: 2px solid #63c1af;
+    top: 11px;
+    left: 11px;
+    color: #63c1af;
+    background-color: #fff;
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    font-weight: bold;z-index:1000;
+    font-size: 20px;border: 2px solid #63c1af;
 }
 .step-num span{
     display:block;
@@ -850,74 +850,32 @@ ul.arr li:before {
 
 }
 
- /*
-    Lam
-*/
 
-.col-left {
-    margin-top: 10em; 
-    padding-left: 11em; 
-    padding-top: 2em;
+
+/* Hoa */
+.div-head{
+    background: #63c1af;
+    color: white;
+}
+.div-cach{
+    margin-top: 50px;
+}
+.div-imgh{
+    width: 100px;
+    margin: 10px;
+}
+/* Hoa */
+
+/*huong start*/
+.background-huong {
+    background-image: url(../image/diamond.png);
+    height: 70px;
+    width: auto;
 }
 
-.col-center {
-    padding: 2em;
+.h2-huong{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 14rem;
 }
-.col-right {
-    margin-top: 10em; 
-    padding-right: 11em; 
-    padding-top: 2em;
-}
-
-.hangmuc-audit {
-    background-color: #efe4b0;
-    margin-top: 3em;
-    color: black;
-}
-.image-size-lam {
-    width: 45%;
-    height: auto;
-}
-
-.keyword {
-    height: 15em;
-    width: 15em;
-    margin: 0 auto;
-    padding-top: 1em;
-    background-color: #33CCFF;
-    border-radius: 50%;
-
-}
-
-.keyword1 {
-    height: 20em;
-    width: 20em;
-    background-color: white;
-
-}
-
-.h3-lam {
-    margin-top: 0.2em;
-    margin-bottom: 0;
-}
-
-/*Tablet*/
-@media all and (max-width: 1024px) {
-    .keyword {
-        height: 15em;
-        width: 15em;
-        margin: 0 auto;
-        padding-top: 1em;
-        background-color: #33CCFF;
-        border-radius: 50%;
-
-    }
-
-    .keyword1 {
-        height: 20em;
-        width: 20em;
-        background-color: white;
-
-    }
-}
-
+/*huong end*/
