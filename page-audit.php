@@ -261,7 +261,7 @@
         </div>
     </div>
 
-    <div id="price" class="col-md-12 block" style="background-color:#fff;">
+    <div id="price" class="col-md-12 block" >
         <div class="col-md-12" style="text-align:center;">
             <h2 style="margin-bottom:20px">Chi tiết dịch vụ</h2>
             <div>
@@ -310,9 +310,11 @@
 
 
                             <div class="col-md-4">
-                                <div style="background-image: url("<?php bloginfo('template_directory');?>/image/diamond.png");">
+                                <div style=" background-image: url("<?php bloginfo('template_directory');?>/image/diamond.png ;");">
                                     <div class="h2-huong">
-                                        <h2 style="padding-top: 14rem;">2 triệu/lần</h2>
+                                        <h2 style="margin-top: 12rem;padding: 2rem 1rem 2rem 1rem ;">
+                                            2 triệu/lần
+                                        </h2>
                                     </div>
                                 </div>
                             </div>
