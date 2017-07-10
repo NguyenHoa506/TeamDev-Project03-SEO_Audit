@@ -181,7 +181,7 @@
             <div class="row div-cach">
                 <div class="col-md-10 col-md-offset-1 col-xs-12">
                     <div class="col-md-12 col-xs-12">
-                        <div class="col-md-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png">
@@ -192,7 +192,7 @@
                             </div>
                         </div>  
 
-                        <div class="col-md-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/refresh-button.png">
@@ -203,7 +203,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png">
