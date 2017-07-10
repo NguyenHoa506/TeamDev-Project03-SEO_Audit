@@ -496,8 +496,20 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="row">
                 
-                <div class="col-md-3 col-sm-3 col-right">
-                   sdfds
+                <div class="col-md-3 col-sm-3 col-md-offset-1 col-right">
+
+                    <div class="keyword" style="margin-bottom: 5em; background-color: #ff7f27;">
+                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+                        <h3 class="h3-lam">Hệ thống content</h3>
+                        
+                    </div>
+
+                    <div class="keyword" style="margin-top: 10em; background-color: #a0436b;">
+                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                        <h3 class="h3-lam">Hệ thống<br>backlink</h3>
+
+                    </div>
+
                 </div>
 
                 <div class="col-md-4 col-sm-6 text-center col-center">
@@ -519,7 +531,18 @@
                 </div>
 
                 <div class="col-md-3 col-sm-3 col-right">
-                   dfdsf
+
+                    <div class="keyword" style="margin-bottom: 5em; background-color: #ffaeb0;">
+                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
+                        <h3 class="h3-lam">Onpage</h3>
+                    </div>
+
+                    <div class="keyword" style="margin-top: 10em; background-color: #22b14c;">
+                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
+                        <h3 class="h3-lam">Cấu trúc liên kết link </h3>
+                        
+                    </div>
+
                 </div>
             </div>
         </div>
