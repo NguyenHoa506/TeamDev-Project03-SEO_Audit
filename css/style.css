@@ -853,9 +853,12 @@ ul.arr li:before {
 
 
 /*Page Audit*/
-.mobile-screen {
-    display: none;
+@media screen and (min-width: 1025px){
+    .mobile-screen {
+        display: none;
+    }
 }
+
 
 .lg-screen {
     background-color: #efe4b0;
