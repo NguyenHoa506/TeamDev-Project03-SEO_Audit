@@ -181,7 +181,7 @@
             <div class="row div-cach">
                 <div class="col-md-10 col-md-offset-1 col-xs-12">
                     <div class="col-md-12 col-xs-12">
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png">
@@ -192,7 +192,7 @@
                             </div>
                         </div>  
 
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/refresh-button.png">
@@ -203,7 +203,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-xs-12">
                             <div class="col-md-11">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png">
@@ -383,9 +383,9 @@
             </div>
         </div>
     </div>
-<!-- huong end -->
 
-     <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:50px; ">
+
+    <div id="customer" class="col-md-12 text-center" style="padding-top:50px; ">
         <h2>Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
@@ -415,7 +415,7 @@
                     </div>
 
                     <div class=" keyword keyword1" style="margin-bottom: 5em; margin-top: 5em; background-color: #7092be;">
-                        <img style="width: 80%; padding-top: 1em; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
+                        <img style="width: 90%; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
                     </div>
 
                     <div class="keyword ux" style="background-color: #893fae;">
@@ -442,35 +442,16 @@
             </div>
         </div>
     </div>
-
-    <div class="myClass mobile-screen">
-        <div class="row" style="padding-left: 2em;">
-            <div class="span5 text-center">
-                <div class="keyword">
-                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                    <h3 class="h3-lam">Keyword</h3>
-                    <h3 class="h3-lam">Landing page</h3>
-                </div>
-            </div>
-
-            <div class="span5 text-center">
-                <div class="keyword">
-                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                    <h3 class="h3-lam">Keyword</h3>
-                    <h3 class="h3-lam">ss</h3>
-                </div>
-            </div>
-
-
-            
-            
-        </div>
-    </div>
     
 <!-- huong start -->
     <div id="price" class="col-md-12 block" >
+        <div class="col-md-12" style="text-align:center; margin-bottom: 1rem;">
+            <h2 class="h3-huong" style="margin-bottom:20px">Chi tiết dịch vụ</h2>
+        </div>
+        <!-- <div class="col-md-12" style="text-align:center;">
+            <h3 style="margin-bottom:20px">Chi tiết dịch vụ</h3>
+        </div> -->
         <div class="col-md-12" style="text-align:center;">
-            <h2 style="margin-bottom:20px">Chi tiết dịch vụ</h2>
             <div>
                 <div class="row">
                     <div class="container">
