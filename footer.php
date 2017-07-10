@@ -1,5 +1,5 @@
 
-        <div id="customer" class="col-md-12" style="background-color:#fff; padding-top:50px; ">
+        <div id="customer" class="col-md-12 col-sm-12 col-md-12" style="background-color:#fff; padding-top:50px; ">
             <div class="margin-detail col-md-12">
                 <h2 style="color:#6ab139">Khách Hàng Của Chúng Tôi</h2>
             </div>
