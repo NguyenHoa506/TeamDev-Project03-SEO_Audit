@@ -320,16 +320,16 @@ h1{
     padding:5px 10px 5px 10px
 }
 .header4{
-        color:#fff;
+    color:#fff;
     padding: 15px 0 ;
     background-color:#d9534f;
-        border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .header4 .sub{
     background-color:#d43f3a;
-        font-size: 16px;
-            border-radius:20px;
+    font-size: 16px;
+    border-radius:20px;
     padding:5px 10px 5px 10px
 }
 
@@ -349,15 +349,15 @@ h1{
 }
 .step-num{
     position: absolute;
-                                                top: 11px;
-                                                left: 11px;
-                                                color: #63c1af;
-                                                background-color: #fff;
-                                                height: 31px;
-                                                width: 31px;
-                                                border-radius: 50%;
-                                                font-weight: bold;z-index:1000;
-                                                font-size: 20px;border: 2px solid #63c1af;
+    top: 11px;
+    left: 11px;
+    color: #63c1af;
+    background-color: #fff;
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    font-weight: bold;z-index:1000;
+    font-size: 20px;border: 2px solid #63c1af;
 }
 .step-num span{
     display:block;
@@ -864,3 +864,17 @@ ul.arr li:before {
     margin: 10px;
 }
 /* Hoa */
+
+/*huong start*/
+.background-huong {
+    background-image: url(../image/diamond.png);
+    height: 70px;
+    width: auto;
+}
+
+.h2-huong{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 14rem;
+}
+/*huong end*/
