@@ -385,7 +385,7 @@
     </div>
 
 
-    <div id="customer" class="col-md-12 text-center" style="padding-top:50px; ">
+    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:50px; ">
         <h2>Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
@@ -444,9 +444,9 @@
     </div>
 
 
-    <div style="background-color: #efe4b0; padding-top: 1em;" class="text-center">
+    <div style="background-color: #efe4b0; padding-top: 1em;" class="text-center mobile-screen">
         <h2 style="margin-bottom: 1em;">Các hạng mục audit</h2>
-        <div class="myClass mobile-screen text-center" >
+        <div class="myClass  text-center" >
 
             <div class="row" style="padding-left: 2em;">
 
