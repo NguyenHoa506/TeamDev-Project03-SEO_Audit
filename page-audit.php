@@ -300,7 +300,7 @@
                                         </div>
                                         <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:160px">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe iste odit nam iure recusandae, molestias, debitis soluta accusantium, alias suscipit voluptas commodi ea dignissimos voluptatem. 
+                                                Một bảng report tổng quan về tình trạng sức khỏe hiện tại của website. 
                                             </p>
                                         </div>
                                     </div>
@@ -308,11 +308,15 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 no-padding">
-                                <div >
-                                    
+
+                            <div class="col-md-4">
+                                <div style="background-image: url("<?php bloginfo('template_directory');?>/image/diamond.png");">
+                                    <div class="h2-huong">
+                                        <h2 style="padding-top: 14rem;">2 triệu/lần</h2>
+                                    </div>
                                 </div>
                             </div>
+
 
                             <div class="col-md-4 no-padding">
                                 <div class="col-md-12 package should-margin-bottom border-l">
@@ -346,7 +350,7 @@
                                         </div>
                                         <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:160px">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis alias rem quod esse doloribus illo deserunt dolores architecto earum consectetur harum reprehenderit laudantium, sit nam?
+                                                Một buổi diễn giải & hướng dẫn cách thức chỉnh sửa.
                                             </p>
                                         </div>
                                     </div>
