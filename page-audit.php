@@ -82,10 +82,134 @@
 <body>
 
     <?php get_header(); ?>
+    <div class="body-content">
+        <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
+            <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
+    </div>
+
+        
+
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
+
+<style>
+    .head-bg {
+        background-image: url("<?php bloginfo('template_directory');?>/image/banner.jpg")/*tpa=http://magica.top/Imgs/banner.jpg*/;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x:58%;
+    }
+</style>
     
     
     <!-- Hoa start -->
+    <div>
+        <div id="full-action" class="callToAction" style="display:none">
+            <form>
+                <div class="form-group" style="text-align:center; position:relative">
+                    <div style="font-size:20px">Miễn phí tư vấn</div>
+                    <div style="font-size:17px">Hotline 
+                        <b>
+                            <?php
+                                $value = get_field( "phone-number" );
+                                if( $value ) { 
+                                    echo $value;
+                                }
+                            ?>
+                        </b>
+                    </div>
+                    <span onclick="HideAction()" style="position:absolute; right:5px;top:3px; cursor:pointer"><i class="fa fa-times" aria-hidden="true"></i></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="Họ và Tên">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" id="phone" placeholder="Điện thoại">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="site" placeholder="Website">
+                </div>
+                <div class="form-group">
+                    <textarea id="note" class="form-control" style="width:100%;" rows="3" placeholder="Nhu cầu: Từ khóa, ngân sách dự kiến, các yêu cầu khác"></textarea>
+                </div>
+                <div style="text-align:center">
+                    <button onclick="SendEmail(1)" class="btn btn-default">GỬI</button>
+                </div>
+
+            </form>
+
+
+        </div>
+        <div id="mini-action" class="callToAction">
+            <div onclick="ShowAction()" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="row">
+                <div id="banner" style="position:relative">
+                    <div style="background-color:black; opacity:0.3; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
+                    <div class="head-bg"></div>
+                    <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
+                        <div style="position: relative; left: -25%;">
+                            <h1 id="toptext">
+                                <span>SEO Audit</span>
+                            </h1>
+                            <h4>
+                                Kiểm tra tình hình SEO của website cùng chuyên gia
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 col-xs-12 div-head">
+            <div class="row" align="center">
+                <h2>Mục Đích</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-xs-12">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="col-md-4 col-xs-12">
+                            <div class="col-md-11">
+                                <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
+                                    <!--<img style="width: 100px" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png"-->
+                                </div>
+                                <div>
+                                    <h4>Có cái nhìn khách quan từ bên ngoài về tình trạng SEO hiện tại</h4>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="col-md-11">
+                                <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
+                                    <!--img style="width: 100px; padding-left: 10px" src="<?php bloginfo('template_directory');?>/image/refresh-button.png"-->
+                                </div>
+                                <div>
+                                    <h4>Được hỗ trợ tư vấn chuyên sâu về từng vấn đề của SEO mà ít có team nào có thể bao quát hết được</h4>                        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="col-md-11">
+                                <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
+                                    <!--img style="width: 100px" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png"-->
+                                </div>
+                                <div>
+                                    <h4>Cập nhập những thay đổi mới nhất từ Google & cải tiến hệ thống SEO hiện tại</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </div>
     
+    <!-- Hoa end -->
     <!-- Hoa end -->
 
     
