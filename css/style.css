@@ -850,7 +850,7 @@ ul.arr li:before {
 
 }
 
- .col-left {
+.col-left {
     margin-top: 10em; 
     padding-left: 11em; 
     padding-top: 2em;
@@ -935,13 +935,28 @@ ul.arr li:before {
 
     }
 
+    .col-left {
+        margin-top: 10em; 
+        padding-left: 11em; 
+        padding-top: 2em;
+    }
+
+    .col-center {
+        padding: 2em;
+    }
+    .col-right {
+        margin-top: 10em; 
+        padding-right: 11em; 
+        padding-top: 2em;
+    }
+
     .content {
         
         background-color: #ff7f27;
     }
 
     .backlink {
-        margin-top: 4em; 
+        margin-top: 6em; 
         background-color: #a0436b;
     }
 
@@ -951,7 +966,7 @@ ul.arr li:before {
     }
 
     .link {
-        margin-top: 4em; 
+        margin-top: 6em; 
         background-color: #22b14c;
     }
 }
