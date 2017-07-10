@@ -383,9 +383,9 @@
             </div>
         </div>
     </div>
-
 <!-- huong end -->
-    <div id="customer" class="col-md-12 text-center" style="padding-top:50px; ">
+
+     <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:50px; ">
         <h2>Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
@@ -415,7 +415,7 @@
                     </div>
 
                     <div class=" keyword keyword1" style="margin-bottom: 5em; margin-top: 5em; background-color: #7092be;">
-                        <img style="width: 90%; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
+                        <img style="width: 80%; padding-top: 1em; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
                     </div>
 
                     <div class="keyword ux" style="background-color: #893fae;">
@@ -440,6 +440,30 @@
 
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="myClass mobile-screen">
+        <div class="row" style="padding-left: 2em;">
+            <div class="span5 text-center">
+                <div class="keyword">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                    <h3 class="h3-lam">Keyword</h3>
+                    <h3 class="h3-lam">Landing page</h3>
+                </div>
+            </div>
+
+            <div class="span5 text-center">
+                <div class="keyword">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                    <h3 class="h3-lam">Keyword</h3>
+                    <h3 class="h3-lam">ss</h3>
+                </div>
+            </div>
+
+
+            
+            
         </div>
     </div>
     

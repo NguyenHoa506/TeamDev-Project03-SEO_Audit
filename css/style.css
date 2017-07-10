@@ -850,6 +850,16 @@ ul.arr li:before {
 
 }
 
+
+
+/*Page Audit*/
+.mobile-screen {
+    display: none;
+}
+
+.lg-screen {
+    background-color: #efe4b0;
+}
 .col-left {
     margin-top: 10em; 
     padding-left: 11em; 
@@ -893,7 +903,7 @@ ul.arr li:before {
 }
 
 .h3-lam {
-    margin-top: 0.2em;
+    margin-top: 0.5em;
     margin-bottom: 0;
 }
 
@@ -916,8 +926,12 @@ ul.arr li:before {
     margin-top: 10em; 
     background-color: #22b14c;
 }
+
+
+
 /*Tablet*/
 @media all and (max-width: 1024px) {
+
     .keyword {
         height: 13em;
         width: 13em;
@@ -970,6 +984,37 @@ ul.arr li:before {
         background-color: #22b14c;
     }
 }
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+
+    div.myClass {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    div.myClass [class*="col"], /* TWBS v3 */
+    div.myClass [class*="span"] {  /* TWBS v2 */
+        display: inline-block;
+        float: none; /* Very important */
+    }
+    .lg-screen {
+        display: none;
+    }
+
+    .keyword {
+        height: 15em;
+        width: 15em;
+        margin: 0 auto;
+        padding-top: 1em;
+        background-color: #33CCFF;
+        border-radius: 10%;
+    }
+
+    .span5 {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
 
 
 /* Hoa */
