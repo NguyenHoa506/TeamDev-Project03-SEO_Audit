@@ -93,64 +93,43 @@
     
     <!-- Huong end -->
     
+    
+    <div id="customer" class="col-md-12 text-center" style="padding-top:50px; ">
+        <h2>Các hạng mục audit</h2>
 
-    <!-- Lam start -->
-    <div class="col-md-12 col-sm-12 col-xs-12 text-center hangmuc-audit">
-        <div class="col-md-10 col-sm-12 col-md-offset-1">
-            <h2 class="">Các Hạng Mục Audit</h2>
+        <div class="col-md-10 col-md-offset-1">
             <div class="row">
-                <div class="col-md-4 col-sm-4" style="margin-top: 10em; padding-left: 10em; padding-top: 2em;">
-                    <div class="keyword" style="margin-bottom: 5em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                        <h3 class="h3-lam">Hệ thống content</h3>
-                        
-                    </div>
-
-                    <div class="keyword" style="margin-top: 10em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                        <h3 class="h3-lam">Hệ thống<br>backlink</h3>
-                    
-                    </div>
+                
+                <div class="col-md-3 col-sm-3 col-right">
+                   sdfds
                 </div>
 
-               <div class="col-md-4 col-sm-4 text-center" style="padding: 2em;">
+                <div class="col-md-4 col-sm-6 text-center col-center">
                     <div class="keyword">
                         <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
                         <h3 class="h3-lam">Keyword</h3>
                         <h3 class="h3-lam">Landing page</h3>
                     </div>
 
-                    <div class=" keyword keyword1" style="margin-bottom: 5em; margin-top: 5em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                        <h3>Keyword</h3>
-                        <h3>Landing page</h3>
+                    <div class=" keyword keyword1" style="margin-bottom: 5em; margin-top: 5em; background-color: #7092be;">
+                        <img style="width: 90%; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
                     </div>
 
-                    <div class="keyword">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                    <div class="keyword" style="background-color: #893fae;">
+                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
                         <h3 class="h3-lam">UX</h3>
-                       
+
                     </div>
                 </div>
 
-               <div class="col-md-4 col-sm-4" style="margin-top: 10em; padding-right: 10em; padding-top: 2em;">
-                    <div class="keyword" style="margin-bottom: 5em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                        <h3 class="h3-lam">Onpage</h3>
-                    </div>
-
-                    <div class="keyword" style="margin-top: 10em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                        <h3 class="h3-lam">Cấu trúc liên kết link </h3>
-                        
-                    </div>
+                <div class="col-md-3 col-sm-3 col-right">
+                   dfdsf
                 </div>
-
             </div>
         </div>
-        
     </div>
-    <!-- Lam end -->
+    
+    
     
     
     <?php get_footer(); ?>
