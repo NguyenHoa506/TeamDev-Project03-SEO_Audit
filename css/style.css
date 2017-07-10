@@ -850,6 +850,72 @@ ul.arr li:before {
 
 }
 
+.col-left {
+    margin-top: 10em; 
+    padding-left: 11em; 
+    padding-top: 2em;
+}
+
+.col-center {
+    padding: 2em;
+}
+.col-right {
+    margin-top: 10em; 
+    padding-right: 11em; 
+    padding-top: 2em;
+}
+
+.hangmuc-audit {
+    background-color: #efe4b0;
+    margin-top: 3em;
+    color: black;
+}
+.image-size-lam {
+    width: 45%;
+    height: auto;
+}
+
+.keyword {
+    height: 15em;
+    width: 15em;
+    margin: 0 auto;
+    padding-top: 1em;
+    background-color: #33CCFF;
+    border-radius: 50%;
+
+}
+
+.keyword1 {
+    height: 20em;
+    width: 20em;
+    background-color: white;
+
+}
+
+.h3-lam {
+    margin-top: 0.2em;
+    margin-bottom: 0;
+}
+
+/*Tablet*/
+@media all and (max-width: 1024px) {
+    .keyword {
+        height: 15em;
+        width: 15em;
+        margin: 0 auto;
+        padding-top: 1em;
+        background-color: #33CCFF;
+        border-radius: 50%;
+
+    }
+
+    .keyword1 {
+        height: 20em;
+        width: 20em;
+        background-color: white;
+
+    }
+}
 
 
 /* Hoa */
