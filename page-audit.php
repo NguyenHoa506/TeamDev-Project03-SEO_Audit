@@ -415,7 +415,7 @@
                     </div>
 
                     <div class=" keyword keyword1" style="margin-bottom: 5em; margin-top: 5em; background-color: #7092be;">
-                        <img style="width: 90%; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
+                        <img style="width: 80%; padding-top: 1em; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
                     </div>
 
                     <div class="keyword ux" style="background-color: #893fae;">

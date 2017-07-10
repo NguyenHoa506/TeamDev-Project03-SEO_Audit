@@ -934,7 +934,10 @@ ul.arr li:before {
 
 
 /*Tablet*/
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1024px) and (min-width: 481px) {
+    .mobile-screen {
+        display: none;
+    }
 
     .keyword {
         height: 13em;
