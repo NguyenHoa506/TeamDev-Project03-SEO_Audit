@@ -175,40 +175,40 @@
         </div>
 
         <div class="col-md-12 col-xs-12 div-head">
-            <div class="row" align="center">
+            <div class="row div-cach" align="center">
                 <h2>Mục Đích</h2>
             </div>
             <div class="row div-cach">
                 <div class="col-md-10 col-md-offset-1 col-xs-12">
                     <div class="col-md-12 col-xs-12">
-                        <div class="col-md-4 col-xs-12">
-                            <div class="col-md-11">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="col-md-12">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png">
                                 </div>
-                                <div>
+                                <div class="div-cach">
                                     <h4>Có cái nhìn khách quan từ bên ngoài về tình trạng SEO hiện tại</h4>
                                 </div>
                             </div>
                         </div>  
 
-                        <div class="col-md-4 col-xs-12">
-                            <div class="col-md-11">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="col-md-12">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/refresh-button.png">
                                 </div>
-                                <div>
+                                <div class="div-cach">
                                      <h4>Cập nhập những thay đổi mới nhất từ Google & cải tiến hệ thống SEO hiện tại</h4>                       
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-xs-12">
-                            <div class="col-md-11">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="col-md-12">
                                 <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png">
                                 </div>
-                                <div>
+                                <div class="div-cach">
                                     <h4>Được hỗ trợ tư vấn chuyên sâu về từng vấn đề của SEO mà ít có team nào có thể bao quát hết được</h4>
                                 </div>
                             </div>
@@ -385,7 +385,7 @@
     </div>
 
 
-    <div id="customer" class="col-md-12 text-center" style="padding-top:50px; ">
+    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:50px; ">
         <h2>Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
@@ -415,7 +415,7 @@
                     </div>
 
                     <div class=" keyword keyword1" style="margin-bottom: 5em; margin-top: 5em; background-color: #7092be;">
-                        <img style="width: 90%; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
+                        <img style="width: 80%; padding-top: 1em; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
                     </div>
 
                     <div class="keyword ux" style="background-color: #893fae;">
@@ -443,56 +443,62 @@
         </div>
     </div>
 
-    <div class="myClass mobile-screen">
-        <h2>Các hạng mục audit</h2>
-        <div class="row" style="padding-left: 2em;">
 
-            <div class="span5 text-center">
-                <div class="keyword" style="background-color: #ff7f27;">
-                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
-                    <h3 class="h3-lam">Hệ thống content</h3>
+    <div style="background-color: #efe4b0; padding-top: 1em;" class="text-center mobile-screen">
+        <h2 style="margin-bottom: 1em;">Các hạng mục audit</h2>
+        <div class="myClass  text-center" >
+
+            <div class="row" style="padding-left: 2em;">
+
+                <div class="span5 text-center">
+                    <div class="keyword" style="background-color: #ff7f27;">
+                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+
+                      
+                    </div>
+                </div>
+
+                <div class="span5 text-center">
+                    <div class="keyword" style="background-color: #a0436b;">
+                       <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                      
+
+                   </div>
+               </div>
+
+               <div class="span5 text-center">
+                <div class="keyword">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                    
                 </div>
             </div>
 
             <div class="span5 text-center">
-                <div class="keyword" style="background-color: #a0436b;">
-                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
-                 <h3 class="h3-lam">Hệ thống<br>backlink</h3>
-             </div>
-         </div>
-
-         <div class="span5 text-center">
-            <div class="keyword">
-                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                <h3 class="h3-lam">Keyword</h3>
-                <h3 class="h3-lam">Landing page</h3>
+                <div class="keyword" style="background-color: #893fae;">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
+                   
+                </div>
             </div>
-        </div>
 
-        <div class="span5 text-center">
-            <div class="keyword" style="background-color: #893fae;">
-                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
-                <h3 class="h3-lam">UX</h3>
+            <div class="span5 text-center">
+                <div class="keyword" style="background-color: #ffaeb0;">
+                   <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
+                  
+               </div>
+           </div>
+
+           <div class="span5 text-center">
+            <div class="keyword" style="background-color: #22b14c;">
+                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
+                
             </div>
-        </div>
+        </div>  
 
-        <div class="span5 text-center">
-            <div class="keyword" style="background-color: #ffaeb0;">
-             <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
-             <h3 class="h3-lam">Onpage</h3>
-         </div>
-     </div>
+    </div>
+</div>
+</div>
 
-     <div class="span5 text-center">
-        <div class="keyword" style="background-color: #22b14c;">
-            <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
-            <h3 class="h3-lam">Cấu trúc<br>liên kết link </h3>
-        </div>
-    </div>  
     
-</div>
-</div>
-
     
 <!-- huong start -->
     <div id="price" class="col-md-12 block" >

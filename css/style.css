@@ -909,7 +909,6 @@ ul.arr li:before {
 
 .h3-lam {
     margin-top: 0.5em;
-    margin-bottom: 0;
 }
 
 .content {
@@ -935,7 +934,10 @@ ul.arr li:before {
 
 
 /*Tablet*/
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1024px) and (min-width: 481px) {
+    .mobile-screen {
+        display: none;
+    }
 
     .keyword {
         height: 13em;
@@ -994,7 +996,7 @@ ul.arr li:before {
 @media screen and (max-width: 480px) {
 
     div.myClass {
-        overflow-x: auto;
+        overflow-x: scroll;
         white-space: nowrap;
     }
     div.myClass [class*="col"], /* TWBS v3 */
@@ -1025,9 +1027,10 @@ ul.arr li:before {
 .div-head{
     background: #63c1af;
     color: white;
+    z-index: 3;
 }
 .div-cach{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .div-imgh{
     width: 100px;
