@@ -32,61 +32,9 @@
     <script src="<?php bloginfo('template_directory');?>/js/respond.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
     <style>
-        .head-bg{
-                background-image: url("<?php bloginfo('template_directory');?>/image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
-        }
-        .benefit{
-            background-color:transparent;
-        }
-        #feature{
-         background-image: url("<?php bloginfo('template_directory');?>/image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position:relative;
-    }
-        .strength{
-            background-color:#fff;
-            padding:15px;
-            font-size:17px;
-            position:relative;
-                box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
-        }
-        .strength:hover  .hidden-content{
-            display:block;
-        }
-        .hidden-content{
-            background-color:#000;
-            color:#fff;
-            opacity:0.9;
-            position:absolute;
-            width:100%;
-            display:none;
-            height:100%;
-            top: 0;
-            left: 0;
-            font-size:13px;
-            padding:15px;
-        }
-        .my-div:after {
-            content: '';
-            position: absolute;
-            left: -30px;
-            top: 30px;
-            width: 0;
-            height: 0;
-            border: 30px solid transparent;
-            border-top-color: red;
-        }
+        
     </style>
-    <script>
-        $(document).ready(function () {
-            $("#banner2").css("height", $(window).height());
-            $("#toptext2").css("margin-top", $(window).height() * 0.4);
-        });
-    </script>
+    
 </head>
 
 <body>
@@ -101,16 +49,7 @@
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
 
-<style>
-    .head-bg {
-        background-image: url("<?php bloginfo('template_directory');?>/image/banner.jpg")/*tpa=http://magica.top/Imgs/banner.jpg*/;
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position-x:58%;
-    }
-</style>
+
     
     
     <!-- Hoa start -->
@@ -159,7 +98,7 @@
             <div class="row">
                 <div id="banner" style="position:relative">
                     <div style="background-color:black; opacity:0.3; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
-                    <div class="head-bg"></div>
+                    <div class="head-bg-audit"></div>
                     <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
                         <div style="position: relative; left: -25%;">
                             <h1 id="toptext">
@@ -270,7 +209,7 @@
                                             </div>
                                             <div class="back">
                                                 <p style="padding-top: 0;">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum! Blanditiis, ratione quisquam quia aliquid temporibus sint enim adipisci vitae distinctio amet minus at suscipit! In possimus praesentium obcaecati est totam commodi doloribus natus, expedita accusamus quos, quas ut molestias. Officia in, quam numquam maiores, architecto hic illum consequuntur.
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perspiciatis nobis rerum sunt, optio suscipit! Consequatur, molestias consequuntur. Possimus, obcaecati quisquam dolores ab.
                                                 </p>
                                             </div>
                                         </div>
@@ -320,7 +259,7 @@
                                             </div>
                                             <div class="back">
                                                 <p style="padding-top:0;">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum numquam eum obcaecati, modi atque delectus, magnam architecto, aliquam praesentium sapiente mollitia commodi error, animi odit sequi quo fugiat accusamus. Doloribus veniam nesciunt, quo corporis harum voluptatibus, fugit, perferendis at iure, placeat iusto adipisci. Iure esse modi nesciunt sit, accusantium officiis voluptates aut, magnam laudantium fugit eligendi soluta reprehenderit consequuntur maxime, numquam, sint distinctio nulla doloremque commodi vitae. Consectetur, eaque, vitae.
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni dignissimos quae sint praesentium nam doloribus, autem adipisci expedita asperiores nostrum sunt, in minima. Placeat.
                                                 </p>
                                             </div>
                                         </div>
@@ -370,7 +309,7 @@
                                             </div>
                                             <div class="back">
                                                 <p style="padding-top:0;">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quam delectus atque repellat quidem sint, voluptatem, iusto a cum qui. Nam porro iure aperiam quos, error similique molestiae perferendis officiis earum, dolore natus dicta consectetur provident ut optio in facilis nihil quas nostrum. A provident delectus tempore sunt voluptatem consequuntur sequi libero, obcaecati perspiciatis, quaerat, doloribus quas repudiandae vitae, dolor architecto quis. Possimus eum tempore iure sed nihil dicta quos.
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptate repellat doloremque aperiam aliquid necessitatibus vero id est dolorem eius?
                                                 </p>
                                             </div>
                                         </div>
@@ -569,12 +508,12 @@
     
 <!-- huong start -->
     <div id="price" class="col-md-12 block" >
-        <div class="col-md-12" style="text-align:center; margin-bottom: 1rem;">
-            <h2 style="margin-bottom:20px">Chi tiết dịch vụ</h2>
+        <div class="col-md-12" >
+            <h2 class="h2-huong">Chi tiết dịch vụ</h2>
         </div>
-        <div class="col-md-12" style="text-align:center;">
-            <h3 class="h3-huong"  style="margin-bottom:20px">
-                Giá của dịch vụ là 2 triệu/lần bao gồm 2 thành phần như sau.
+        <div class="col-md-12" >
+            <h3 class="h3-huong">
+                2 triệu/lần bao gồm
             </h3>
         </div>
         <div class="col-md-12" style="text-align:center;">
@@ -691,6 +630,12 @@
 
       ga('create', 'UA-79228914-1', 'auto');
       ga('send', 'pageview');
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#banner2").css("height", $(window).height());
+            $("#toptext2").css("margin-top", $(window).height() * 0.4);
+        });
     </script>
 </body>
 </html>

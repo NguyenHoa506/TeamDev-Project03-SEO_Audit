@@ -41,15 +41,11 @@
                                         $image = get_field('customer2');
                                         if( !empty($image) ): 
                                             // vars
-                                            $url = $image['url'];
                                             $title = $image['hinhanh'];
                                             $alt = $image['alt'];
                                             $caption = $image['caption'];
                                             // thumbnail
-                                            $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['size'][ $size . '-width' ];
-                                            $height = $image['sizes'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
@@ -70,15 +66,11 @@
                                         $image = get_field('customer3');
                                         if( !empty($image) ): 
                                             // vars
-                                            $url = $image['url'];
                                             $title = $image['hinhanh'];
                                             $alt = $image['alt'];
                                             $caption = $image['caption'];
                                             // thumbnail
-                                            $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['size'][ $size . '-width' ];
-                                            $height = $image['sizes'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
@@ -190,15 +182,10 @@
                                         $image = get_field('customer7');
                                         if( !empty($image) ): 
                                             // vars
-                                            $url = $image['url'];
                                             $title = $image['hinhanh'];
                                             $alt = $image['alt'];
                                             $caption = $image['caption'];
-                                            // thumbnail
-                                            $size = 'large';
                                             $thumb = $image['sizes'][ $size ];
-                                            $width = $image['size'][ $size . '-width' ];
-                                            $height = $image['size'][ $size . '-height' ];
                                             if( $caption ): ?>
                                                 <div class="wp-caption">
                                             <?php endif; ?>
