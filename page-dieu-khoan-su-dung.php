@@ -45,7 +45,8 @@
 
             <br />Việc bạn gửi cho chúng tôi bất kỳ thông tin có chứa đựng những ý tưởng, minh họa, sáng chế, triển khai, đề xuất đồng nghĩa với việc bạn đồng ý với những điều sau đây:
             <br />i. Chúng tôi không buộc phải xem những thông tin này là thông tin mật và không có trách nhiệm lưu trữ chúng.
-            <br />ii. Chúng tôi không có trách nhiệm nghiên cứu, đánh giá hay áp dụng thông tin này. iii. Cho dù chúng tôi vô tình áp dụng một ý tưởng gần giống hay tương tự một phần hay toàn bộ, với ý tưởng của bạn, chúng tôi không có trách nhiệm phải bồi thường bất kỳ thiệt hại nào cho những sự việc như vậy.
+            <br />ii. Chúng tôi không có trách nhiệm nghiên cứu, đánh giá hay áp dụng thông tin này.
+            <br /> iii. Cho dù chúng tôi vô tình áp dụng một ý tưởng gần giống hay tương tự một phần hay toàn bộ, với ý tưởng của bạn, chúng tôi không có trách nhiệm phải bồi thường bất kỳ thiệt hại nào cho những sự việc như vậy.
             <br />Chúng tôi cũng có thể dùng thông tin cá nhân thu thập được từ bạn để thông báo cho bạn về những sản phẩm và dịch vụ, chương trình khuyến mãi hay các công ty đối tác cung cấp, hoặc để xin ý kiến của bạn về các sản phẩm và dịch vụ hiện tại hay những sản phẩm và dịch vụ tiềm năng mới.
             <br />Chúng tôi có một khu vực để bạn có thể liên lạc với chúng tôi. Bất kỳ phản hồi nào bạn gửi đến trang web sẽ trở thành tài sản của chúng tôi và chúng tôi có thể dùng phản hồi đó (chẳng hạn các câu chuyện thành công) cho các mục đích tiếp thị, hoặc liên hệ với bạn để có thêm thông tin.
             <br />Chúng tôi cố gắng hết sức bảo vệ thông tin cá nhân của bạn bao gồm việc không tiết lộ hoặc gửi cho bất kỳ bên thứ ba nào. Không có dữ liệu nào truyền trên internet được bảo mật an toàn 100% nên bạn tự chịu rủi ro này.

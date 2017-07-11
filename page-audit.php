@@ -324,7 +324,7 @@
     </div>
 
 
-    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:50px; ">
+    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:2em; ">
         <h2>Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
@@ -338,16 +338,16 @@
                         
                     </div>
 
-                    <div class="keyword backlink">
+                    <div class="keyword backlink" style="padding-left: 1em; padding-right: 1em;">
                         <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
-                        <h3 class="h3-lam">Hệ thống<br>backlink</h3>
+                        <h3 class="h3-lam">Hệ thống backlink</h3>
 
                     </div>
 
                 </div>
 
                 <div class="col-md-4 col-sm-4 text-center col-center">
-                    <div class="keyword landing">
+                    <div class="keyword landing" style="padding-right: 2em; padding-left: 2em;">
                         <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
                         <h3 class="h3-lam">Keyword</h3>
                         <h3 class="h3-lam">Landing page</h3>
@@ -371,7 +371,7 @@
                         <h3 class="h3-lam">Onpage</h3>
                     </div>
 
-                    <div class="keyword link" style="">
+                    <div class="keyword link" style="padding-left: 1em; padding-right: 1em;">
                         <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
                         <h3 class="h3-lam">Cấu trúc liên kết link </h3>
                         
@@ -383,55 +383,56 @@
     </div>
 
 
-    <div style="background-color: #efe4b0; padding-top: 1em;" class="text-center mobile-screen">
+    <div style="background-color: #efe4b0; padding-top: 1em; padding-bottom: 1em;" class="text-center mobile-screen">
         <h2 style="margin-bottom: 1em;">Các hạng mục audit</h2>
         <div class="myClass  text-center" >
 
-            <div class="row" style="padding-left: 2em;">
+            <div class="row" style="padding-left: 1em; padding-right: 2em;">
 
-                <div class="span5 text-center">
-                    <div class="keyword" style="background-color: #ff7f27;">
+                    <div class="keyword" style="background-color: #ff7f27; display: inline-block; margin: auto 1em;">
                         <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+                        <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Hệ thống content</p>
 
                       
                     </div>
-                </div>
+                
 
-                <div class="span5 text-center">
-                    <div class="keyword" style="background-color: #a0436b;">
+            
+                    <div class="keyword" style="background-color: #a0436b; display: inline-block; margin: auto 1em;">
                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                       <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Hệ thống backlink</p>
                       
 
                    </div>
-               </div>
+               
 
-               <div class="span5 text-center">
-                <div class="keyword">
+               
+                <div class="keyword" style="padding-left: 2em; padding-right: 2em; display: inline-block; margin: auto 1em;">
                     <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                    
+                    <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Keyword<br>Landing page</p>
                 </div>
-            </div>
+        
 
-            <div class="span5 text-center">
-                <div class="keyword" style="background-color: #893fae;">
+    
+                <div class="keyword" style="background-color: #893fae; display: inline-block; margin: auto 1em;">
                     <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
-                   
+                   <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">UX</p>
                 </div>
-            </div>
+        
 
-            <div class="span5 text-center">
-                <div class="keyword" style="background-color: #ffaeb0;">
+        
+                <div class="keyword" style="background-color: #ffaeb0; display: inline-block; margin: auto 1em;">
                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
-                  
+                  <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Onpage</p>
                </div>
-           </div>
+           
 
-           <div class="span5 text-center">
-            <div class="keyword" style="background-color: #22b14c;">
+           
+            <div class="keyword" style="background-color: #22b14c; padding-left: 2em; padding-right: 2em; display: inline-block; margin: auto 1em;">
                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
-                
+                <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Cấu trúc<br>liên kết link</p>
             </div>
-        </div>  
+    
 
     </div>
 </div>
