@@ -1047,8 +1047,9 @@ ul.arr li:before {
 
 .h2-huong{
     text-align: center;
-    margin-top: 50px;
-    padding-top: 14rem;
+    margin-top: 1em;
+    padding-top: 0rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -1057,7 +1058,9 @@ ul.arr li:before {
     padding: 2rem 0;
     border-style: none;
     border-radius: 10px;
-    margin: 0 9.4rem;
+    text-align: center;
+    width: 46em;
+    margin-left: 3.8em; 
 }
 .header41{
     color:#fff;
@@ -1087,6 +1090,152 @@ ul.arr li:before {
 }
 #whyus{
     background-color: #E4EBE7;
+}
+
+.head-bg-ads{
+    background-image: url("../image/banner2.jpg")/*tpa=http://magica.top/Imgs/banner2.jpg*/;
+    background-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.package-ads .body{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+.first-part p, .second-part p{
+    text-align:justify;
+}
+.hover-c-ads:hover{
+    color:#faff19 ;
+}
+.step-num-ads{
+    color: rgb(0, 107, 156);
+}
+
+.head-bg-seo{
+        background-image: url("../image/banner.jpg")/*tpa=http://magica.top/Imgs/banner.jpg*/;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x:58%;
+}
+.head-bg-thiet-ke{
+    background-image: url("../image/tkws.png")/*tpa=http://magica.top/Imgs/tkws.png*/;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+}
+.head-bg-audit{
+    background-image: url("../image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+}
+.benefit-audit{
+    background-color:transparent;
+}
+#feature-audit{
+    background-image: url("<?php bloginfo('template_directory');?>/image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.strength-audit{
+    background-color:#fff;
+    padding:15px;
+    font-size:17px;
+    position:relative;
+    box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
+}
+.strength-audit:hover  .hidden-content{
+    display:block;
+}
+.hidden-content-audit{
+            background-color:#000;
+            color:#fff;
+            opacity:0.9;
+            position:absolute;
+            width:100%;
+            display:none;
+            height:100%;
+            top: 0;
+            left: 0;
+            font-size:13px;
+            padding:15px;
+}
+.my-div-audit:after {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 30px;
+            width: 0;
+            height: 0;
+            border: 30px solid transparent;
+            border-top-color: red;
+}
+.head-bg-cau-hoi{
+        background-image: url("../image/banner2.jpg")/*tpa=http://magica.top/Imgs/banner2.jpg*/;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 70% 50%;
+}
+.head-bg-cong-tac-vien{
+    background-image: url("../image/ctvmagica.jpg")/*tpa=http://magica.top/Imgs/ctvmagica.jpg*/;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+        /*background-position: 70% 50%;*/
+}
+.head-bg-dieu-khoan-sd{
+        background-image: url("../image/banner2.jpg")/*tpa=http://magica.top/Imgs/banner2.jpg*/;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 70% 50%;
+}
+
+.head-bg-lien-he{
+        background-image: url("../image/banner2.jpg")/*tpa=http://magica.top/Imgs/banner2.jpg*/;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;  
+}
+.map-responsive-lien-he{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive-lien-he iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.head-bg-chung-toi{
+        background-image: url("../image/banner2.jpg")/*tpa=http://magica.top/Imgs/banner2.jpg*/;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 70% 50%;
 }
 /*huong end*/
 
