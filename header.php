@@ -51,7 +51,8 @@
             <div  class="navbar-collapse collapse" style="padding-top: 12px;">
                 <div>
                     <div class="big-logo">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img style="height:40px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" /></a>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img style="height:40px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" />
+                        </a>
                     </div>
                     <ul class="nav navbar-nav pull-right" >
                         <li class="dropdown tb-show">
@@ -68,6 +69,7 @@
                             <a class="hasSub" href="http://blog.magica.top/">SEO BLOG</a>
                             
                         </li>
+                        <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">TRANG CHỦ</a></li>
                         <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/seo">SEO</a></li>
                         <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads">QUẢNG CÁO GOOGLE</a></li>
                         <li class="tb-hide" style="padding:5px 0;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
