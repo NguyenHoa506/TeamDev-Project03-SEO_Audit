@@ -385,63 +385,131 @@
     </div>
 
 
-    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:2em; ">
-        <h2>Các hạng mục audit</h2>
+    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:2em; padding-bottom: 2em;">
+        <h2 style="margin-bottom: 2em;">Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
+            <div class="row" style="margin-bottom: 2em;">
+
+                <div class="col-md-4 col-sm-4 frame">
+
+                        <div class="flip-container border-flip">
+                            <div class="flipper">
+                                <div class="front keyword content ">
+                                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+                                        <h3 class="h3-lam">Hệ thống content</h3>
+                                </div>
+                                <div class="back keyword content">
+                                    <p style="padding-top: 0;">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-md-4 col-sm-4 frame">
+
+                    <div class="flip-container border-flip">
+                        <div class="flipper">
+                            <div class="front keyword backlink ">
+                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                                <h3 class="h3-lam">Hệ thống backlink</h3>
+                            </div>
+                            <div class="back keyword backlink">
+                                <p style="padding-top: 0;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-4 col-sm-4 frame">
+
+                    <div class="flip-container border-flip">
+                        <div class="flipper">
+                            <div class="front keyword landing">
+                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                                <h3 class="h3-lam">Keyword</h3>
+                                <h3 class="h3-lam">Landing page</h3>
+                            </div>
+                            <div class="back keyword landing">
+                                <p style="padding-top: 0;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+ 
+
+            </div>
+
             <div class="row">
-                
-                <div class="col-md-3 col-sm-4 col-md-offset-1 col-right">
 
-                    <div class="keyword content" >
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
-                        <h3 class="h3-lam">Hệ thống content</h3>
-                        
+                <div class="col-md-4 col-sm-4 frame">
+
+                    <div class="flip-container border-flip">
+                        <div class="flipper">
+                            <div class="front keyword ux ">
+                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
+                                <h3 class="h3-lam">UX</h3>
+                            </div>
+                            <div class="back keyword ux">
+                                <p style="padding-top: 0;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                </p>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="keyword backlink" style="padding-left: 1em; padding-right: 1em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
-                        <h3 class="h3-lam">Hệ thống backlink</h3>
-
-                    </div>
-
+                    
                 </div>
 
-                <div class="col-md-4 col-sm-4 text-center col-center">
-                    <div class="keyword landing" style="padding-right: 2em; padding-left: 2em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                        <h3 class="h3-lam">Keyword</h3>
-                        <h3 class="h3-lam">Landing page</h3>
-                    </div>
+                <div class="col-md-4 col-sm-4 frame">
 
-                    <div class=" keyword keyword1" style="margin-bottom: 5em; margin-top: 5em; background-color: #7092be;">
-                        <img style="width: 80%; padding-top: 1em; height: auto;" class="text-middle" alt="keyword" src="<?php bloginfo('template_directory');?>/image/tools.png">
-                    </div>
-
-                    <div class="keyword ux" style="background-color: #893fae;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
-                        <h3 class="h3-lam">UX</h3>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-4 col-right">
-
-                    <div class="keyword onpage" style="">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
+                    <div class="flip-container border-flip">
+                        <div class="flipper">
+                            <div class="front keyword onpage">
+                               <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
                         <h3 class="h3-lam">Onpage</h3>
+                            </div>
+                            <div class="back keyword onpage">
+                                <p style="padding-top: 0;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                </p>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="keyword link" style="padding-left: 1em; padding-right: 1em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
-                        <h3 class="h3-lam">Cấu trúc liên kết link </h3>
-                        
-                    </div>
-
+                    
                 </div>
+
+                <div class="col-md-4 col-sm-4 frame">
+
+                    <div class="flip-container border-flip">
+                        <div class="flipper">
+                            <div class="front keyword link">
+                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
+                        <h3 class="h3-lam">Cấu trúc liên kết link </h3>
+                            </div>
+                            <div class="back keyword link">
+                                <p style="padding-top: 0;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+ 
+
+            </div>
+  
             </div>
         </div>
-    </div>
 
 
     <div style="background-color: #efe4b0; padding-top: 1em; padding-bottom: 1em;" class="text-center mobile-screen">
@@ -450,16 +518,14 @@
 
             <div class="row" style="padding-left: 1em; padding-right: 2em;">
 
-                    <div class="keyword" style="background-color: #ff7f27; display: inline-block; margin: auto 1em;">
-                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
-                        <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Hệ thống content</p>
-
-                      
-                    </div>
+                <div class="keyword" style="background-color: #ff7f27; margin: auto 1em;">
+                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+                    <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Hệ thống content</p>     
+                </div>
                 
 
             
-                    <div class="keyword" style="background-color: #a0436b; display: inline-block; margin: auto 1em;">
+                    <div class="keyword" style="background-color: #a0436b; margin: auto 1em;">
                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
                        <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Hệ thống backlink</p>
                       
@@ -468,28 +534,28 @@
                
 
                
-                <div class="keyword" style="padding-left: 2em; padding-right: 2em; display: inline-block; margin: auto 1em;">
+                <div class="keyword" style="padding-left: 2em; padding-right: 2em; margin: auto 1em;">
                     <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
                     <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Keyword<br>Landing page</p>
                 </div>
         
 
     
-                <div class="keyword" style="background-color: #893fae; display: inline-block; margin: auto 1em;">
+                <div class="keyword" style="background-color: #893fae; margin: auto 1em;">
                     <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
                    <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">UX</p>
                 </div>
         
 
         
-                <div class="keyword" style="background-color: #ffaeb0; display: inline-block; margin: auto 1em;">
+                <div class="keyword" style="background-color: #ffaeb0; margin: auto 1em;">
                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
                   <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Onpage</p>
                </div>
            
 
            
-            <div class="keyword" style="background-color: #22b14c; padding-left: 2em; padding-right: 2em; display: inline-block; margin: auto 1em;">
+            <div class="keyword" style="background-color: #22b14c; padding-left: 2em; padding-right: 2em; margin: auto 1em;">
                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
                 <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Cấu trúc<br>liên kết link</p>
             </div>

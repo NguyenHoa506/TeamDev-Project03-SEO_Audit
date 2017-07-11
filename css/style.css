@@ -880,32 +880,29 @@ ul.arr li:before {
     padding-top: 2em;
 }
 
-.hangmuc-audit {
-    background-color: #efe4b0;
-    margin-top: 3em;
-    color: black;
+div.flip-container.border-flip {
+    height: 20em;
+    width: 20em;
 }
-.image-size-lam {
-    width: 45%;
+
+img.image-size-lam {
+    width: 70%;
     height: auto;
 }
 
+div.col-md-4.col-sm-4.frame {
+    padding-left: 3em;
+}
+
 .keyword {
-    height: 15em;
-    width: 15em;
+    height: 20em;
+    width: 20em;
     margin: 0 auto;
     padding-top: 1em;
     background-color: #33CCFF;
-    border-radius: 50%;
+    border-radius: 10%;
     padding-right: 1em;
     padding-left: 1em;
-
-}
-
-.keyword1 {
-    height: 20em;
-    width: 20em;
-    background-color: white;
 
 }
 
@@ -918,9 +915,8 @@ ul.arr li:before {
     background-color: #ff7f27;
 }
 
-.bakclink {
-    margin-top: 10em; 
-    background-color: #a0436b;
+.backlink {
+    background-color: #c8bfe7;
 }
 
 .onpage {
@@ -929,8 +925,11 @@ ul.arr li:before {
 }
 
 .link {
-    margin-top: 10em; 
     background-color: #22b14c;
+}
+
+.ux {
+   background-color: #893fae; 
 }
 
 
@@ -942,55 +941,45 @@ ul.arr li:before {
     }
 
     .keyword {
-        height: 13em;
-        width: 13em;
-        margin: 0 auto;
-        padding-top: 1em;
-        background-color: #33CCFF;
-        border-radius: 50%;
-    }
-
-    .keyword1 {
         height: 15em;
         width: 15em;
-        background-color: white;
+        margin: 0 auto;
+        margin-top: 2em;
+        padding-top: 1em;
+        background-color: #33CCFF;
+        border-radius: 10%;
+        padding-right: 1em;
+        padding-left: 1em;
 
     }
 
-    
-
-    .col-left {
-        margin-top: 10em; 
-        padding-left: 11em; 
-        padding-top: 2em;
+    div.col-md-4.col-sm-4.frame {
+        padding-left: 1.4em;
     }
 
-    .col-center {
-        padding: 2em;
-    }
-    .col-right {
-        margin-top: 10em; 
-        padding-right: 11em; 
-        padding-top: 2em;
+    div.flip-container.border-flip {
+        height: 15em;
+        width: 15em;
     }
 
-    .content {
-        
+    .image-size-lam {
+        width: 60%;
+        height: auto;
+    }
+
+    .content { 
         background-color: #ff7f27;
     }
 
     .backlink {
-        margin-top: 6em; 
-        background-color: #a0436b;
+        background-color: #c8bfe7;
     }
 
     .onpage {
-        
         background-color: #ffaeb0;
     }
 
     .link {
-        margin-top: 6em; 
         background-color: #22b14c;
     }
 }
@@ -1006,6 +995,10 @@ ul.arr li:before {
         display: none;
     }
 
+    .image-size-lam {
+        width: 60%;
+        height: auto;
+    }
 
     .keyword {
         height: 15em;
@@ -1014,16 +1007,8 @@ ul.arr li:before {
         padding-top: 1em;
         background-color: #33CCFF;
         border-radius: 10%;
+        display: inline-block;
     }
-
-    .span5 {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    
-
-
 }
 
 /* Hoa */
