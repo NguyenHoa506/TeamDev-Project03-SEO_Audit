@@ -324,8 +324,8 @@
     </div>
 
 
-    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:2em; padding-bottom: 2em;">
-        <h2 style="margin-bottom: 2em;">Các hạng mục audit</h2>
+    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:2em; padding-bottom: 4em;">
+        <h2 class="title-audit">Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
             <div class="row" style="margin-bottom: 2em;">
@@ -340,7 +340,7 @@
                                 </div>
                                 <div class="back keyword content">
                                     <p style="padding-top: 0;">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                     </p>
                                 </div>
                             </div>
@@ -358,7 +358,7 @@
                             </div>
                             <div class="back keyword backlink">
                                 <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                 </p>
                             </div>
                         </div>
@@ -377,7 +377,7 @@
                             </div>
                             <div class="back keyword landing">
                                 <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                 </p>
                             </div>
                         </div>
@@ -400,7 +400,7 @@
                             </div>
                             <div class="back keyword ux">
                                 <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                 </p>
                             </div>
                         </div>
@@ -418,7 +418,7 @@
                             </div>
                             <div class="back keyword onpage">
                                 <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                 </p>
                             </div>
                         </div>
@@ -436,7 +436,7 @@
                             </div>
                             <div class="back keyword link">
                                 <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam iure ipsum!
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                 </p>
                             </div>
                         </div>
@@ -451,58 +451,99 @@
         </div>
 
 
-    <div style="background-color: #efe4b0; padding-top: 1em; padding-bottom: 1em;" class="text-center mobile-screen">
-        <h2 style="margin-bottom: 1em;">Các hạng mục audit</h2>
-        <div class="myClass  text-center" >
+        <div style="background-color: #efe4b0; padding-top: 1em; padding-bottom: 1em;" class="text-center mobile-screen">
+            <h2 class="title-audit">Các hạng mục audit</h2>
+            <div class="myClass  text-center" style="padding-left: 1em; padding-right: 1em;">
 
-            <div class="row" style="padding-left: 1em; padding-right: 2em;">
-
-                <div class="keyword" style="background-color: #ff7f27; margin: auto 1em;">
-                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
-                    <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Hệ thống content</p>     
+                <div class="flip-container border-flip frame-mobile">
+                    <div class="flipper">
+                        <div class="front keyword content ">
+                            <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+                            <h3 class="h3-lam">Hệ thống content</h3>
+                        </div>
+                        <div class="back keyword content">
+                            <p class="text-back-mobile">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                
 
-            
-                    <div class="keyword" style="background-color: #a0436b; margin: auto 1em;">
-                       <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
-                       <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Hệ thống backlink</p>
-                      
-
-                   </div>
-               
-
-               
-                <div class="keyword" style="padding-left: 2em; padding-right: 2em; margin: auto 1em;">
-                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
-                    <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Keyword<br>Landing page</p>
+                <div class="flip-container border-flip frame-mobile">
+                    <div class="flipper">
+                        <div class="front keyword backlink ">
+                            <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                            <h3 class="h3-lam">Hệ thống backlink</h3>
+                        </div>
+                        <div class="back keyword backlink">
+                            <p class="text-back-mobile">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                            </p>
+                        </div>
+                    </div>
                 </div>
-        
 
-    
-                <div class="keyword" style="background-color: #893fae; margin: auto 1em;">
-                    <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
-                   <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">UX</p>
+                <div class="flip-container border-flip frame-mobile">
+                    <div class="flipper">
+                        <div class="front keyword landing">
+                            <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                            <h3 class="h3-lam">Keyword</h3>
+                            <h3 class="h3-lam">Landing page</h3>
+                        </div>
+                        <div class="back keyword landing">
+                            <p class="text-back-mobile">
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                            </p>
+                        </div>
+                    </div>
                 </div>
-        
 
-        
-                <div class="keyword" style="background-color: #ffaeb0; margin: auto 1em;">
-                   <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
-                  <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Onpage</p>
-               </div>
-           
+                <div class="flip-container border-flip frame-mobile">
+                    <div class="flipper">
+                        <div class="front keyword ux ">
+                            <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
+                            <h3 class="h3-lam">UX</h3>
+                        </div>
+                        <div class="back keyword ux">
+                            <p class="text-back-mobile">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-           
-            <div class="keyword" style="background-color: #22b14c; padding-left: 2em; padding-right: 2em; margin: auto 1em;">
-                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
-                <p class="p-text" style="font-size: 1.7em; padding-top: 0.6em;">Cấu trúc<br>liên kết link</p>
+                <div class="flip-container border-flip frame-mobile">
+                    <div class="flipper">
+                        <div class="front keyword onpage">
+                         <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
+                         <h3 class="h3-lam">Onpage</h3>
+                     </div>
+                     <div class="back keyword onpage">
+                        <p class="text-back-mobile">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                        </p>
+                    </div>
+                </div>
             </div>
-    
 
+            <div class="flip-container border-flip frame-mobile">
+                <div class="flipper">
+                    <div class="front keyword link">
+                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
+                        <h3 class="h3-lam">Cấu trúc liên kết link </h3>
+                    </div>
+                    <div class="back keyword link">
+                        <p class="text-back-mobile">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
     </div>
-</div>
-</div>
 
     
     
