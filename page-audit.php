@@ -502,12 +502,12 @@
     
 <!-- huong start -->
     <div id="price" class="col-md-12 block" >
-        <div class="col-md-12" style="text-align:center; margin-bottom: 1rem;">
-            <h2 style="margin-bottom:20px">Chi tiết dịch vụ</h2>
+        <div class="col-md-12" >
+            <h2 class="h2-huong">Chi tiết dịch vụ</h2>
         </div>
-        <div class="col-md-12" style="text-align:center;">
-            <h3 class="h3-huong"  style="margin-bottom:20px">
-                Giá của dịch vụ là 2 triệu/lần bao gồm 2 thành phần như sau.
+        <div class="col-md-12" >
+            <h3 class="h3-huong">
+                2 triệu/lần bao gồm
             </h3>
         </div>
         <div class="col-md-12" style="text-align:center;">

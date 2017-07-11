@@ -1047,8 +1047,9 @@ ul.arr li:before {
 
 .h2-huong{
     text-align: center;
-    margin-top: 50px;
-    padding-top: 14rem;
+    margin-top: 1em;
+    padding-top: 0rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -1057,7 +1058,9 @@ ul.arr li:before {
     padding: 2rem 0;
     border-style: none;
     border-radius: 10px;
-    margin: 0 9.4rem;
+    text-align: center;
+    width: 46em;
+    margin-left: 3.8em; 
 }
 .header41{
     color:#fff;
