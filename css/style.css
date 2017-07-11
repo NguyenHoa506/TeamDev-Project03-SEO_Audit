@@ -897,6 +897,8 @@ ul.arr li:before {
     padding-top: 1em;
     background-color: #33CCFF;
     border-radius: 50%;
+    padding-right: 1em;
+    padding-left: 1em;
 
 }
 
@@ -946,7 +948,6 @@ ul.arr li:before {
         padding-top: 1em;
         background-color: #33CCFF;
         border-radius: 50%;
-
     }
 
     .keyword1 {
@@ -955,6 +956,8 @@ ul.arr li:before {
         background-color: white;
 
     }
+
+    
 
     .col-left {
         margin-top: 10em; 
@@ -997,16 +1000,12 @@ ul.arr li:before {
 
     div.myClass {
         overflow-x: scroll;
-        white-space: nowrap;
     }
-    div.myClass [class*="col"], /* TWBS v3 */
-    div.myClass [class*="span"] {  /* TWBS v2 */
-        display: inline-block;
-        float: none; /* Very important */
-    }
+
     .lg-screen {
         display: none;
     }
+
 
     .keyword {
         height: 15em;
@@ -1021,6 +1020,10 @@ ul.arr li:before {
         padding-left: 1em;
         padding-right: 1em;
     }
+
+    
+
+
 }
 
 /* Hoa */
