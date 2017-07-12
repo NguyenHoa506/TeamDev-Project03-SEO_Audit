@@ -907,7 +907,6 @@ div.col-md-4.col-sm-4.frame {
     width: 20em;
     margin: 0 auto;
     padding-top: 1em;
-    background-color: #33CCFF;
     border-radius: 10%;
     padding-right: 1em;
     padding-left: 1em;
@@ -916,6 +915,10 @@ div.col-md-4.col-sm-4.frame {
 
 .h3-lam {
     margin-top: 0.5em;
+}
+
+.keyword-landing {
+    background-color: #33CCFF;
 }
 
 .content {
@@ -952,9 +955,8 @@ div.col-md-4.col-sm-4.frame {
     opacity: 0.6;
 }
 .back-text {
-    padding-left: 1em;
-    padding-right: 1em;
-}
+        padding-top: 0;
+    }
 
 
 
@@ -973,7 +975,6 @@ div.col-md-4.col-sm-4.frame {
         margin: 0 auto;
         margin-top: 2em;
         padding-top: 1em;
-        background-color: #33CCFF;
         border-radius: 10%;
         padding-right: 1em;
         padding-left: 1em;
@@ -992,6 +993,10 @@ div.col-md-4.col-sm-4.frame {
     img.image-size-lam {
         width: 60%;
         height: auto;
+    }
+
+    .keyword-landing {
+        background-color: #33CCFF;
     }
 
     .content { 
@@ -1020,8 +1025,7 @@ div.col-md-4.col-sm-4.frame {
         opacity: 0.6;
     }
     .back-text {
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-top: 0;
     }
 }
 
@@ -1061,9 +1065,12 @@ div.col-md-4.col-sm-4.frame {
         width: 15em;
         margin: 0 auto;
         padding-top: 1em;
-        background-color: #33CCFF;
         border-radius: 10%;
         display: inline-block;
+    }
+
+    .keyword-landing {
+        background-color: #33CCFF;
     }
 
     .content {
@@ -1098,9 +1105,17 @@ div.col-md-4.col-sm-4.frame {
         opacity: 0.6;
     }
     .back-text {
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-top: 0;
         white-space: normal;
+    }
+
+    .back{
+        text-align:justify;
+        display: table;
+    }
+    .back p {
+        display: table-cell;
+        vertical-align: middle;
     }
 }
 
