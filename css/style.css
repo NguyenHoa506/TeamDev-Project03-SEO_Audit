@@ -139,7 +139,7 @@ body{
 }
 .back p {
     display: table-cell;
-  vertical-align: middle;
+    vertical-align: middle;
 }
 /* flip speed goes here */
 .flipper {

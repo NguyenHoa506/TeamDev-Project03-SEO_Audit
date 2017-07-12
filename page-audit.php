@@ -331,7 +331,7 @@
 
                                 </div>
                                 <div class="back">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                    <p class="back-text" style="padding-top: 0; color: white;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                     </p>
                                 </div>
