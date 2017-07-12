@@ -406,7 +406,7 @@
 
                                                 </div>
                                                 <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
-                                                    Đồng bộ chiến lược kinh doanhh
+                                                    Đồng bộ chiến lược kinh doanh
                                                 </div>
                                             </div>
                                             <div class="back">

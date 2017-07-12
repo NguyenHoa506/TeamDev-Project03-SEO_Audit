@@ -1,48 +1,8 @@
+    
     <?php get_header(); ?>
-        <div class="navbar-inverse eduu-navbar navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <div class="mini-logo">
-                    <img style="height:25px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" tppabs="http://magica.top/Imgs/LogoMagic.png" />
-                </div>
-                <button id="collapsed-btn" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div  class="navbar-collapse collapse">
-                <div>
-                    <div class="big-logo">
-                        <a href="index.php" tppabs="http://magica.top/"><img style="height:40px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" tppabs="http://magica.top/Imgs/LogoMagic.png" /></a>
-                    </div>
-                    <ul class="nav navbar-nav pull-right" style="padding-top:12px">
-                        <li class="dropdown tb-show">
-                            <a class="hasSub" href="#">DỊCH VỤ</a>
-                            <ul class="dropdown-menu">
-                                <li style="padding-top:4px;"><a href="seo.php" tppabs="http://magica.top/seo">SEO</a></li>
-                                <li style="padding-top:4px;"><a href="google-ads.php" tppabs="http://magica.top/google-ads">QUẢNG CÁO GOOGLE</a></li>
-                                <li style="padding-top:4px;"><a href="thiet-ke-website.php" tppabs="http://magica.top/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
-                            </ul>
-                        </li>
 
-                        <li class="dropdown tb-show">
-                            <a class="hasSub" href="javascript:if(confirm('http://blog.magica.top/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://blog.magica.top/'" tppabs="http://blog.magica.top/">SEO BLOG</a>
-                            
-                        </li>
 
-                        <li class="tb-hide" style="padding:5px 0"><a href="seo.php" tppabs="http://magica.top/seo">SEO</a></li>
-                        <li class="tb-hide" style="padding:5px 0"><a href="google-ads.php" tppabs="http://magica.top/google-ads">QUẢNG CÁO GOOGLE</a></li>
-                        <li class="tb-hide" style="padding:5px 0;"><a href="thiet-ke-website.php" tppabs="http://magica.top/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
-                        <li class="tb-hide" style="padding:5px 0; margin-bottom:7px"><a href="javascript:if(confirm('http://blog.magica.top/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://blog.magica.top/'" tppabs="http://blog.magica.top/">SEO BLOG</a></li>
-                        <li>
-                            <a href="#"><span class="top-hotline"><i class="fa fa-phone" aria-hidden="true"></i> 0901 395 886</span></a>
-                        </li>
-                    </ul>
-                </div>             
-            </div>
-        </div>
-    </div>
+        
     <div class="body-content">
         <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>

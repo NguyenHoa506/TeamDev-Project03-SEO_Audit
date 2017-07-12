@@ -135,6 +135,11 @@ body{
 }
 .back{
     text-align:justify;
+    display: table;
+}
+.back p {
+    display: table-cell;
+  vertical-align: middle;
 }
 /* flip speed goes here */
 .flipper {
