@@ -298,11 +298,19 @@
                                         <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
                                         <h3 class="h3-lam">Hệ thống content</h3>
                                 </div>
-                                <div class="back keyword content">
-                                    <p style="padding-top: 0;">
+                                <div class="back keyword back-img">
+                                
+                                </div>
+                                <div class="back keyword overlay">
+
+                                </div>
+                                <div class="back">
+                                <p class="back-text" style="padding-top: 0; color: white;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                     </p>
                                 </div>
+
+
                             </div>
                         </div>
                     
@@ -316,11 +324,17 @@
                                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
                                 <h3 class="h3-lam">Hệ thống backlink</h3>
                             </div>
-                            <div class="back keyword backlink">
-                                <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
-                                </p>
-                            </div>
+                            <div class="back keyword back-img">
+                                
+                                </div>
+                                <div class="back keyword overlay">
+
+                                </div>
+                                <div class="back">
+                                <p class="back-text" style="padding-top: 0; color: white;">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                                    </p>
+                                </div>
                         </div>
                     </div>
                     
@@ -335,11 +349,17 @@
                                 <h3 class="h3-lam">Keyword</h3>
                                 <h3 class="h3-lam">Landing page</h3>
                             </div>
-                            <div class="back keyword landing">
-                                <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
-                                </p>
-                            </div>
+                            <div class="back keyword back-img">
+                                
+                                </div>
+                                <div class="back keyword overlay">
+
+                                </div>
+                                <div class="back">
+                                <p class="back-text" style="padding-top: 0; color: white;">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                                    </p>
+                                </div>
                         </div>
                     </div>
                     
@@ -358,11 +378,17 @@
                                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
                                 <h3 class="h3-lam">UX</h3>
                             </div>
-                            <div class="back keyword ux">
-                                <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
-                                </p>
-                            </div>
+                            <div class="back keyword back-img">
+                                
+                                </div>
+                                <div class="back keyword overlay">
+
+                                </div>
+                                <div class="back">
+                                <p class="back-text" style="padding-top: 0; color: white;">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                                    </p>
+                                </div>
                         </div>
                     </div>
                     
@@ -376,11 +402,17 @@
                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
                         <h3 class="h3-lam">Onpage</h3>
                             </div>
-                            <div class="back keyword onpage">
-                                <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
-                                </p>
-                            </div>
+                            <div class="back keyword back-img">
+                                
+                                </div>
+                                <div class="back keyword overlay">
+
+                                </div>
+                                <div class="back">
+                                <p class="back-text" style="padding-top: 0; color: white;">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                                    </p>
+                                </div>
                         </div>
                     </div>
                     
@@ -394,11 +426,17 @@
                                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
                         <h3 class="h3-lam">Cấu trúc liên kết link </h3>
                             </div>
-                            <div class="back keyword link">
-                                <p style="padding-top: 0;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
-                                </p>
-                            </div>
+                            <div class="back keyword back-img">
+                                
+                                </div>
+                                <div class="back keyword overlay">
+
+                                </div>
+                                <div class="back">
+                                <p class="back-text" style="padding-top: 0; color: white;">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                                    </p>
+                                </div>
                         </div>
                     </div>
                     
@@ -421,8 +459,14 @@
                             <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
                             <h3 class="h3-lam">Hệ thống content</h3>
                         </div>
-                        <div class="back keyword content">
-                            <p class="text-back-mobile">
+                        <div class="back keyword back-img">
+                            
+                        </div>
+                        <div class="back keyword overlay">
+
+                        </div>
+                        <div class="back">
+                            <p class="back-text" style="padding-top: 0; color: white;">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                             </p>
                         </div>
@@ -435,8 +479,14 @@
                             <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
                             <h3 class="h3-lam">Hệ thống backlink</h3>
                         </div>
-                        <div class="back keyword backlink">
-                            <p class="text-back-mobile">
+                        <div class="back keyword back-img">
+                            
+                        </div>
+                        <div class="back keyword overlay">
+
+                        </div>
+                        <div class="back">
+                            <p class="back-text" style="padding-top: 0; color: white;">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                             </p>
                         </div>
@@ -450,9 +500,15 @@
                             <h3 class="h3-lam">Keyword</h3>
                             <h3 class="h3-lam">Landing page</h3>
                         </div>
-                        <div class="back keyword landing">
-                            <p class="text-back-mobile">
-                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                        <div class="back keyword back-img">
+                            
+                        </div>
+                        <div class="back keyword overlay">
+
+                        </div>
+                        <div class="back">
+                            <p class="back-text" style="padding-top: 0; color: white;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                             </p>
                         </div>
                     </div>
@@ -464,8 +520,14 @@
                             <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
                             <h3 class="h3-lam">UX</h3>
                         </div>
-                        <div class="back keyword ux">
-                            <p class="text-back-mobile">
+                        <div class="back keyword back-img">
+                            
+                        </div>
+                        <div class="back keyword overlay">
+
+                        </div>
+                        <div class="back">
+                            <p class="back-text" style="padding-top: 0; color: white;">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                             </p>
                         </div>
@@ -478,8 +540,14 @@
                          <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
                          <h3 class="h3-lam">Onpage</h3>
                      </div>
-                     <div class="back keyword onpage">
-                        <p class="text-back-mobile">
+                     <div class="back keyword back-img">
+                        
+                    </div>
+                    <div class="back keyword overlay">
+
+                    </div>
+                    <div class="back">
+                        <p class="back-text" style="padding-top: 0; color: white;">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                         </p>
                     </div>
@@ -492,8 +560,14 @@
                         <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
                         <h3 class="h3-lam">Cấu trúc liên kết link </h3>
                     </div>
-                    <div class="back keyword link">
-                        <p class="text-back-mobile">
+                    <div class="back keyword back-img">
+                        
+                    </div>
+                    <div class="back keyword overlay">
+
+                    </div>
+                    <div class="back">
+                        <p class="back-text" style="padding-top: 0; color: white;">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                         </p>
                     </div>

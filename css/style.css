@@ -940,6 +940,22 @@ div.col-md-4.col-sm-4.frame {
    background-color: #893fae; 
 }
 
+.back-img {
+    background-image: url("../image/customer-people.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 0.6;
+}
+.back-text {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 
 
 /*Tablet*/
@@ -993,6 +1009,20 @@ div.col-md-4.col-sm-4.frame {
     .link {
         background-color: #22b14c;
     }
+    .back-img {
+        background-image: url("../image/customer-people.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .overlay {
+        background-color: black;
+        opacity: 0.6;
+    }
+    .back-text {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 
 /*Mobile*/
@@ -1000,6 +1030,7 @@ div.col-md-4.col-sm-4.frame {
 
     div.myClass {
         overflow-x: scroll;
+        overflow-y: hidden;
         white-space: nowrap;
     }
 
@@ -1023,11 +1054,6 @@ div.col-md-4.col-sm-4.frame {
     .image-size-lam {
         width: 60%;
         height: auto;
-    }
-
-    .text-back-mobile {
-        white-space: normal;
-        
     }
 
     .keyword {
@@ -1058,6 +1084,23 @@ div.col-md-4.col-sm-4.frame {
 
     .ux {
      background-color: #893fae; 
+    }
+
+    .back-img {
+        background-image: url("../image/customer-people.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .overlay {
+        background-color: black;
+        opacity: 0.6;
+    }
+    .back-text {
+        padding-left: 1em;
+        padding-right: 1em;
+        white-space: normal;
     }
 }
 
