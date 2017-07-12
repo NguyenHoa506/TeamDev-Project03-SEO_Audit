@@ -304,9 +304,9 @@
                                 <div class="back keyword overlay">
 
                                 </div>
-                                <div class="back">
-                                <p class="back-text" style="padding-top: 0; color: white;">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
+                                <div class="back keyword back-text" style="padding-top: 0;">
+                                <p style="padding-top: 0; color: white;">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus.
                                     </p>
                                 </div>
 
@@ -330,8 +330,8 @@
                                 <div class="back keyword overlay">
 
                                 </div>
-                                <div class="back">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <div class="back keyword back-text">
+                                <p style="padding-top: 0; color: white;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                     </p>
                                 </div>
@@ -344,7 +344,7 @@
 
                     <div class="flip-container border-flip">
                         <div class="flipper">
-                            <div class="front keyword landing">
+                            <div class="front keyword keyword-landing">
                                 <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
                                 <h3 class="h3-lam">Keyword</h3>
                                 <h3 class="h3-lam">Landing page</h3>
@@ -355,8 +355,8 @@
                                 <div class="back keyword overlay">
 
                                 </div>
-                                <div class="back">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <div class="back keyword back-text">
+                                <p style="padding-top: 0; color: white;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                     </p>
                                 </div>
@@ -384,8 +384,8 @@
                                 <div class="back keyword overlay">
 
                                 </div>
-                                <div class="back">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <div class="back keyword back-text">
+                                <p style="padding-top: 0; color: white;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                     </p>
                                 </div>
@@ -408,8 +408,8 @@
                                 <div class="back keyword overlay">
 
                                 </div>
-                                <div class="back">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <div class="back keyword back-text">
+                                <p style="padding-top: 0; color: white;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                     </p>
                                 </div>
@@ -432,8 +432,8 @@
                                 <div class="back keyword overlay">
 
                                 </div>
-                                <div class="back">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <div class="back keyword back-text">
+                                <p style="padding-top: 0; color: white;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                                     </p>
                                 </div>
@@ -465,8 +465,8 @@
                         <div class="back keyword overlay">
 
                         </div>
-                        <div class="back">
-                            <p class="back-text" style="padding-top: 0; color: white;">
+                        <div class="back keyword back-text">
+                            <p style="padding-top: 0; color: white;">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                             </p>
                         </div>
@@ -485,8 +485,8 @@
                         <div class="back keyword overlay">
 
                         </div>
-                        <div class="back">
-                            <p class="back-text" style="padding-top: 0; color: white;">
+                        <div class="back keyword back-text">
+                            <p style="padding-top: 0; color: white;">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                             </p>
                         </div>
@@ -495,7 +495,7 @@
 
                 <div class="flip-container border-flip frame-mobile">
                     <div class="flipper">
-                        <div class="front keyword landing">
+                        <div class="front keyword keyword-landing">
                             <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
                             <h3 class="h3-lam">Keyword</h3>
                             <h3 class="h3-lam">Landing page</h3>
@@ -506,8 +506,8 @@
                         <div class="back keyword overlay">
 
                         </div>
-                        <div class="back">
-                            <p class="back-text" style="padding-top: 0; color: white;">
+                        <div class="back keyword  back-text">
+                            <p style="padding-top: 0; color: white;">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                             </p>
                         </div>
@@ -526,8 +526,8 @@
                         <div class="back keyword overlay">
 
                         </div>
-                        <div class="back">
-                            <p class="back-text" style="padding-top: 0; color: white;">
+                        <div class="back keyword back-text">
+                            <p style="padding-top: 0; color: white;">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                             </p>
                         </div>
@@ -546,8 +546,8 @@
                     <div class="back keyword overlay">
 
                     </div>
-                    <div class="back">
-                        <p class="back-text" style="padding-top: 0; color: white;">
+                    <div class="back keyword back-text">
+                        <p style="padding-top: 0; color: white;">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                         </p>
                     </div>
@@ -566,8 +566,8 @@
                     <div class="back keyword overlay">
 
                     </div>
-                    <div class="back">
-                        <p class="back-text" style="padding-top: 0; color: white;">
+                    <div class="back keyword back-text">
+                        <p style="padding-top: 0; color: white;">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus, molestiae est nostrum quisquam!
                         </p>
                     </div>
