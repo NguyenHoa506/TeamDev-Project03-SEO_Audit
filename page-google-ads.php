@@ -6,17 +6,17 @@
         </div>
 
 <div>
-    <div id="full-action" class="callToAction" style="display:none">
+    <!-- <div id="full-action" class="callToAction" style="display:none">
         <form>
             <div class="form-group" style="text-align:center; position:relative">
                 <div style="font-size:20px">Miễn phí tư vấn</div>
                 <div style="font-size:17px">Hotline 
                     <b>
                          <?php
-                            $value = get_field( "phone-number" );
-                            if( $value ) { 
-                                echo $value;
-                            }
+                            $value //= get_field( "phone-number" );
+                           // if( $value ) { 
+                              //  echo $value;
+                          //  }
                         ?>
                     </b>
                 </div>
@@ -41,7 +41,7 @@
     </div>
     <div id="mini-action" class="callToAction"  >
         <div onclick="ShowAction()" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
-    </div>
+    </div> -->
 
 
     <div class="col-md-12" style="padding:0px">
@@ -61,6 +61,8 @@
             </div>
         </div>
     </div>
+    
+    <?php echo do_shortcode('[contact-form-7 id="254" title="contact"]'); ?>
     
     <div id="price" class="col-md-12 block" style="background-color:#eee;">
         <div class="col-md-12" style="text-align:center;">
