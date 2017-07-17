@@ -1333,5 +1333,16 @@ div.col-md-4.col-sm-4.frame {
         background-repeat: no-repeat;
         background-position: 70% 50%;
 }
+
+.screen-reader-response{
+    display: none;
+}
+.wpcf7-response-output {
+    display: none;
+}
+.wpcf7-mail-sent-ng{
+    display: none;
+}
+
 /*huong end*/
 

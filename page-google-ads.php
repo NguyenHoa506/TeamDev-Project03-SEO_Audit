@@ -42,8 +42,7 @@
     <div id="mini-action" class="callToAction"  >
         <div onclick="ShowAction()" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
     </div> -->
-
-
+    
     <div class="col-md-12" style="padding:0px">
         <div id="banner" style="position:relative">
             <div style="background-color:black; opacity:0.3; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
@@ -62,7 +61,7 @@
         </div>
     </div>
     
-    <?php echo do_shortcode('[contact-form-7 id="254" title="contact"]'); ?>
+    
     
     <div id="price" class="col-md-12 block" style="background-color:#eee;">
         <div class="col-md-12" style="text-align:center;">
@@ -507,7 +506,7 @@
         </div>
     </div>
 </div>
-
+        <?php echo do_shortcode('[contact-form-7 id="254" title="contact"]'); ?>
         <?php get_footer(); ?>
     </div>
     <script>

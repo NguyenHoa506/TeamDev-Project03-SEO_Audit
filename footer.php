@@ -1,4 +1,5 @@
 
+
         <div id="customer" class="col-md-12 col-sm-12 col-md-12" style="background-color:#fff; padding-top:50px; ">
             <div class="margin-detail col-md-12">
                 <h2 style="color:#6ab139">Khách Hàng Của Chúng Tôi</h2>
@@ -213,7 +214,7 @@
                             <p>Mở cánh cửa đến với khách hàng</p>
                         </div>
                         
-                        
+                        <?php echo do_shortcode('[mc4wp_form id="315"]'); ?>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <h3 style="color:#fff">Liên hệ</h3>
                             <div class="col-md-6">
