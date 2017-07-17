@@ -209,9 +209,14 @@
             <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12" >
                 <div class="row" >
                     <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 footer">
-                        <div class="col-md-6 col-sm-6 col-xs-12 footerlogo" style="padding-left: 7em; padding-top: 3em;">
-                            <img style="height:60px" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" />
-                            <p>Mở cánh cửa đến với khách hàng</p>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        	<div class="footerlogo" style="padding-left: 18%; padding-top: 3em;">
+                        		<div class="row">
+		                            <img style="height:60px" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" />
+		                            <p>Mở cánh cửa đến với khách hàng</p>
+	                            </div>
+                            </div>
+                            <?php echo do_shortcode('[contact-form-7 id="314" title="Form đăng ký"]'); ?>
                         </div>
                         
                         <?php echo do_shortcode('[mc4wp_form id="315"]'); ?>
